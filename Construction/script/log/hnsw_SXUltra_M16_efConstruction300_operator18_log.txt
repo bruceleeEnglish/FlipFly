@@ -1,0 +1,9 @@
+dataset_path: /data/dataset/XUltra/SXUltra_base.fvecs
+index_path: /data/dataset/XUltra/hnsw_SXUltra_M16_efConstruction300_operator18.index
+M: 16
+efConstruction: 300
+operator: 18
+Using SRHTADSampling
+Processing - 0 / 100000
+Processing - 50000 / 100000
+build index: 1.6873e+06 [ms] 

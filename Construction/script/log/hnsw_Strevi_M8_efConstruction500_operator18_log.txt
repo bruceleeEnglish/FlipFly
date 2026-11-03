@@ -1,0 +1,9 @@
+dataset_path: /data/dataset/trevi/Strevi_base.fvecs
+index_path: /data/dataset/trevi/hnsw_Strevi_M8_efConstruction500_operator18.index
+M: 8
+efConstruction: 500
+operator: 18
+Using SRHTADSampling
+Processing - 0 / 99900
+Processing - 50000 / 99900
+build index: 433874 [ms] 

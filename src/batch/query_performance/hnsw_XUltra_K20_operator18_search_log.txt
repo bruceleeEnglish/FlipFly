@@ -1,0 +1,2243 @@
+K: 20
+dataset_path: /data/dataset/XUltra/SXUltra_base.fvecs
+query_path: /data/dataset/XUltra/Squery.fvecs
+ground_truth_path: /data/dataset/XUltra/gt_256.ivecs
+index_path: /data/dataset/XUltra/hnsw_SXUltra_M16_efConstruction500_operator0.index
+operator: 18
+Using SRHTADSampling
+query0: search time = 7.075023 [ms] 
+query1: search time = 10.387866 [ms] 
+query2: search time = 6.655462 [ms] 
+query3: search time = 7.899154 [ms] 
+query4: search time = 7.069444 [ms] 
+query5: search time = 10.616060 [ms] 
+query6: search time = 9.292060 [ms] 
+query7: search time = 9.330111 [ms] 
+query8: search time = 12.056235 [ms] 
+query9: search time = 9.902510 [ms] 
+query10: search time = 6.737287 [ms] 
+query11: search time = 7.118835 [ms] 
+query12: search time = 7.589826 [ms] 
+query13: search time = 6.480949 [ms] 
+query14: search time = 6.081641 [ms] 
+query15: search time = 7.230278 [ms] 
+query16: search time = 5.746531 [ms] 
+query17: search time = 6.586479 [ms] 
+query18: search time = 5.251504 [ms] 
+query19: search time = 12.331667 [ms] 
+query20: search time = 5.346245 [ms] 
+query21: search time = 6.583456 [ms] 
+query22: search time = 4.896481 [ms] 
+query23: search time = 5.603299 [ms] 
+query24: search time = 7.971392 [ms] 
+query25: search time = 7.687423 [ms] 
+query26: search time = 7.594544 [ms] 
+query27: search time = 6.472758 [ms] 
+query28: search time = 7.575672 [ms] 
+query29: search time = 7.030162 [ms] 
+query30: search time = 6.023738 [ms] 
+query31: search time = 7.552088 [ms] 
+query32: search time = 8.360095 [ms] 
+query33: search time = 5.771976 [ms] 
+query34: search time = 6.245831 [ms] 
+query35: search time = 7.470378 [ms] 
+query36: search time = 8.246702 [ms] 
+query37: search time = 8.804737 [ms] 
+query38: search time = 7.576414 [ms] 
+query39: search time = 8.951500 [ms] 
+query40: search time = 7.215135 [ms] 
+query41: search time = 4.941970 [ms] 
+query42: search time = 7.121595 [ms] 
+query43: search time = 5.857946 [ms] 
+query44: search time = 7.541782 [ms] 
+query45: search time = 5.003053 [ms] 
+query46: search time = 7.364442 [ms] 
+query47: search time = 7.542389 [ms] 
+query48: search time = 6.694139 [ms] 
+query49: search time = 4.075932 [ms] 
+query50: search time = 5.568240 [ms] 
+query51: search time = 10.862967 [ms] 
+query52: search time = 4.652297 [ms] 
+query53: search time = 4.492947 [ms] 
+query54: search time = 5.456268 [ms] 
+query55: search time = 3.798332 [ms] 
+query56: search time = 5.198310 [ms] 
+query57: search time = 4.709635 [ms] 
+query58: search time = 9.076519 [ms] 
+query59: search time = 6.552137 [ms] 
+query60: search time = 7.612085 [ms] 
+query61: search time = 7.771238 [ms] 
+query62: search time = 6.209445 [ms] 
+query63: search time = 7.200560 [ms] 
+query64: search time = 7.319844 [ms] 
+query65: search time = 6.329855 [ms] 
+query66: search time = 8.550638 [ms] 
+query67: search time = 8.022148 [ms] 
+query68: search time = 7.362206 [ms] 
+query69: search time = 8.170998 [ms] 
+query70: search time = 8.987186 [ms] 
+query71: search time = 6.183512 [ms] 
+query72: search time = 6.828623 [ms] 
+query73: search time = 7.608285 [ms] 
+query74: search time = 5.475202 [ms] 
+query75: search time = 10.920661 [ms] 
+query76: search time = 7.464361 [ms] 
+query77: search time = 5.588632 [ms] 
+query78: search time = 5.480667 [ms] 
+query79: search time = 4.870441 [ms] 
+query80: search time = 6.584322 [ms] 
+query81: search time = 5.510113 [ms] 
+query82: search time = 5.782843 [ms] 
+query83: search time = 5.770504 [ms] 
+query84: search time = 9.495808 [ms] 
+query85: search time = 7.091071 [ms] 
+query86: search time = 8.272109 [ms] 
+query87: search time = 6.951917 [ms] 
+query88: search time = 6.525604 [ms] 
+query89: search time = 7.317422 [ms] 
+query90: search time = 8.724773 [ms] 
+query91: search time = 7.180436 [ms] 
+query92: search time = 6.764869 [ms] 
+query93: search time = 7.823541 [ms] 
+query94: search time = 7.201737 [ms] 
+query95: search time = 4.889191 [ms] 
+query96: search time = 5.158086 [ms] 
+query97: search time = 11.521888 [ms] 
+query98: search time = 6.647922 [ms] 
+query99: search time = 5.217264 [ms] 
+ef100: search time = 711.317855 [ms]  recall = 0.981500 per query
+query0: search time = 2.783638 [ms] 
+query1: search time = 3.965150 [ms] 
+query2: search time = 1.657542 [ms] 
+query3: search time = 1.940203 [ms] 
+query4: search time = 2.018003 [ms] 
+query5: search time = 4.272618 [ms] 
+query6: search time = 3.579651 [ms] 
+query7: search time = 2.438390 [ms] 
+query8: search time = 4.173478 [ms] 
+query9: search time = 3.613830 [ms] 
+query10: search time = 1.770014 [ms] 
+query11: search time = 1.952320 [ms] 
+query12: search time = 1.894408 [ms] 
+query13: search time = 1.624530 [ms] 
+query14: search time = 2.466084 [ms] 
+query15: search time = 2.354982 [ms] 
+query16: search time = 2.032912 [ms] 
+query17: search time = 2.314730 [ms] 
+query18: search time = 1.751165 [ms] 
+query19: search time = 2.369856 [ms] 
+query20: search time = 1.720632 [ms] 
+query21: search time = 1.936341 [ms] 
+query22: search time = 1.474334 [ms] 
+query23: search time = 1.527248 [ms] 
+query24: search time = 1.983142 [ms] 
+query25: search time = 2.536870 [ms] 
+query26: search time = 2.068540 [ms] 
+query27: search time = 1.741906 [ms] 
+query28: search time = 2.614297 [ms] 
+query29: search time = 1.722033 [ms] 
+query30: search time = 1.875648 [ms] 
+query31: search time = 2.095258 [ms] 
+query32: search time = 2.298379 [ms] 
+query33: search time = 1.875330 [ms] 
+query34: search time = 1.661495 [ms] 
+query35: search time = 2.631164 [ms] 
+query36: search time = 6.004798 [ms] 
+query37: search time = 3.023819 [ms] 
+query38: search time = 3.033035 [ms] 
+query39: search time = 3.443695 [ms] 
+query40: search time = 2.372250 [ms] 
+query41: search time = 1.137892 [ms] 
+query42: search time = 2.563654 [ms] 
+query43: search time = 1.643365 [ms] 
+query44: search time = 2.790132 [ms] 
+query45: search time = 2.046097 [ms] 
+query46: search time = 2.452890 [ms] 
+query47: search time = 3.034575 [ms] 
+query48: search time = 2.159829 [ms] 
+query49: search time = 1.413574 [ms] 
+query50: search time = 1.874513 [ms] 
+query51: search time = 2.838405 [ms] 
+query52: search time = 1.486265 [ms] 
+query53: search time = 1.418933 [ms] 
+query54: search time = 1.755130 [ms] 
+query55: search time = 1.101825 [ms] 
+query56: search time = 1.602475 [ms] 
+query57: search time = 1.244361 [ms] 
+query58: search time = 2.254278 [ms] 
+query59: search time = 1.776396 [ms] 
+query60: search time = 2.187349 [ms] 
+query61: search time = 2.322536 [ms] 
+query62: search time = 1.501248 [ms] 
+query63: search time = 2.376054 [ms] 
+query64: search time = 2.157188 [ms] 
+query65: search time = 1.512208 [ms] 
+query66: search time = 2.789225 [ms] 
+query67: search time = 2.789130 [ms] 
+query68: search time = 2.243878 [ms] 
+query69: search time = 2.487037 [ms] 
+query70: search time = 2.775228 [ms] 
+query71: search time = 1.812897 [ms] 
+query72: search time = 1.950951 [ms] 
+query73: search time = 1.952297 [ms] 
+query74: search time = 1.884442 [ms] 
+query75: search time = 2.038860 [ms] 
+query76: search time = 2.916858 [ms] 
+query77: search time = 1.237023 [ms] 
+query78: search time = 1.544900 [ms] 
+query79: search time = 1.545728 [ms] 
+query80: search time = 1.871006 [ms] 
+query81: search time = 1.361481 [ms] 
+query82: search time = 2.046124 [ms] 
+query83: search time = 1.678798 [ms] 
+query84: search time = 2.663200 [ms] 
+query85: search time = 2.136474 [ms] 
+query86: search time = 3.234523 [ms] 
+query87: search time = 1.924475 [ms] 
+query88: search time = 1.865952 [ms] 
+query89: search time = 1.776663 [ms] 
+query90: search time = 2.664354 [ms] 
+query91: search time = 1.825873 [ms] 
+query92: search time = 1.667507 [ms] 
+query93: search time = 3.000852 [ms] 
+query94: search time = 1.757229 [ms] 
+query95: search time = 1.263156 [ms] 
+query96: search time = 1.499514 [ms] 
+query97: search time = 4.768119 [ms] 
+query98: search time = 1.926936 [ms] 
+query99: search time = 1.529248 [ms] 
+ef20: search time = 221.694828 [ms]  recall = 0.816000 per query
+query0: search time = 7.528708 [ms] 
+query1: search time = 11.745498 [ms] 
+query2: search time = 6.895188 [ms] 
+query3: search time = 8.844698 [ms] 
+query4: search time = 7.266133 [ms] 
+query5: search time = 12.017365 [ms] 
+query6: search time = 10.141119 [ms] 
+query7: search time = 10.364437 [ms] 
+query8: search time = 13.068784 [ms] 
+query9: search time = 10.501899 [ms] 
+query10: search time = 7.511941 [ms] 
+query11: search time = 7.624796 [ms] 
+query12: search time = 11.540859 [ms] 
+query13: search time = 7.059601 [ms] 
+query14: search time = 6.786982 [ms] 
+query15: search time = 8.102364 [ms] 
+query16: search time = 6.226619 [ms] 
+query17: search time = 7.622197 [ms] 
+query18: search time = 5.506634 [ms] 
+query19: search time = 8.198920 [ms] 
+query20: search time = 5.271188 [ms] 
+query21: search time = 6.501527 [ms] 
+query22: search time = 5.021368 [ms] 
+query23: search time = 5.603493 [ms] 
+query24: search time = 8.506136 [ms] 
+query25: search time = 8.239102 [ms] 
+query26: search time = 7.959194 [ms] 
+query27: search time = 7.034292 [ms] 
+query28: search time = 8.339740 [ms] 
+query29: search time = 7.288475 [ms] 
+query30: search time = 6.797094 [ms] 
+query31: search time = 8.079789 [ms] 
+query32: search time = 9.246261 [ms] 
+query33: search time = 6.205156 [ms] 
+query34: search time = 6.785198 [ms] 
+query35: search time = 7.714039 [ms] 
+query36: search time = 8.671321 [ms] 
+query37: search time = 9.380556 [ms] 
+query38: search time = 8.058263 [ms] 
+query39: search time = 9.447809 [ms] 
+query40: search time = 7.855925 [ms] 
+query41: search time = 4.940942 [ms] 
+query42: search time = 7.511791 [ms] 
+query43: search time = 6.225883 [ms] 
+query44: search time = 7.744747 [ms] 
+query45: search time = 5.231403 [ms] 
+query46: search time = 7.604594 [ms] 
+query47: search time = 10.648289 [ms] 
+query48: search time = 6.933486 [ms] 
+query49: search time = 4.250185 [ms] 
+query50: search time = 5.749460 [ms] 
+query51: search time = 12.122635 [ms] 
+query52: search time = 4.776722 [ms] 
+query53: search time = 4.567497 [ms] 
+query54: search time = 5.577112 [ms] 
+query55: search time = 3.821913 [ms] 
+query56: search time = 5.282134 [ms] 
+query57: search time = 5.262018 [ms] 
+query58: search time = 9.890389 [ms] 
+query59: search time = 7.118324 [ms] 
+query60: search time = 7.933154 [ms] 
+query61: search time = 8.169413 [ms] 
+query62: search time = 6.595322 [ms] 
+query63: search time = 7.558022 [ms] 
+query64: search time = 7.542042 [ms] 
+query65: search time = 6.923505 [ms] 
+query66: search time = 9.076288 [ms] 
+query67: search time = 8.985189 [ms] 
+query68: search time = 7.860787 [ms] 
+query69: search time = 8.638070 [ms] 
+query70: search time = 9.732188 [ms] 
+query71: search time = 6.592324 [ms] 
+query72: search time = 7.265929 [ms] 
+query73: search time = 8.082260 [ms] 
+query74: search time = 5.975323 [ms] 
+query75: search time = 7.116003 [ms] 
+query76: search time = 7.456510 [ms] 
+query77: search time = 5.904196 [ms] 
+query78: search time = 5.629303 [ms] 
+query79: search time = 5.035595 [ms] 
+query80: search time = 6.864500 [ms] 
+query81: search time = 5.553411 [ms] 
+query82: search time = 5.838869 [ms] 
+query83: search time = 5.988654 [ms] 
+query84: search time = 12.410253 [ms] 
+query85: search time = 7.856160 [ms] 
+query86: search time = 9.032775 [ms] 
+query87: search time = 7.646168 [ms] 
+query88: search time = 7.500404 [ms] 
+query89: search time = 8.172645 [ms] 
+query90: search time = 9.762714 [ms] 
+query91: search time = 7.635068 [ms] 
+query92: search time = 7.182880 [ms] 
+query93: search time = 8.206151 [ms] 
+query94: search time = 7.523705 [ms] 
+query95: search time = 5.161030 [ms] 
+query96: search time = 5.922935 [ms] 
+query97: search time = 13.048215 [ms] 
+query98: search time = 7.340386 [ms] 
+query99: search time = 6.298437 [ms] 
+ef100: search time = 760.836975 [ms]  recall = 0.981500 per query
+query0: search time = 14.729501 [ms] 
+query1: search time = 20.820050 [ms] 
+query2: search time = 13.308289 [ms] 
+query3: search time = 17.087963 [ms] 
+query4: search time = 13.459034 [ms] 
+query5: search time = 20.270132 [ms] 
+query6: search time = 18.790342 [ms] 
+query7: search time = 21.937188 [ms] 
+query8: search time = 25.484207 [ms] 
+query9: search time = 18.437585 [ms] 
+query10: search time = 15.052561 [ms] 
+query11: search time = 15.322672 [ms] 
+query12: search time = 16.315658 [ms] 
+query13: search time = 12.910399 [ms] 
+query14: search time = 11.496306 [ms] 
+query15: search time = 14.614717 [ms] 
+query16: search time = 10.296717 [ms] 
+query17: search time = 14.957860 [ms] 
+query18: search time = 9.034154 [ms] 
+query19: search time = 14.905110 [ms] 
+query20: search time = 10.242496 [ms] 
+query21: search time = 12.097369 [ms] 
+query22: search time = 10.156904 [ms] 
+query23: search time = 10.951851 [ms] 
+query24: search time = 15.365625 [ms] 
+query25: search time = 17.156024 [ms] 
+query26: search time = 15.935890 [ms] 
+query27: search time = 13.402021 [ms] 
+query28: search time = 14.261728 [ms] 
+query29: search time = 14.480511 [ms] 
+query30: search time = 11.323367 [ms] 
+query31: search time = 15.285998 [ms] 
+query32: search time = 18.528785 [ms] 
+query33: search time = 12.879629 [ms] 
+query34: search time = 12.983044 [ms] 
+query35: search time = 12.932043 [ms] 
+query36: search time = 15.968690 [ms] 
+query37: search time = 17.532746 [ms] 
+query38: search time = 13.775113 [ms] 
+query39: search time = 16.072119 [ms] 
+query40: search time = 13.836144 [ms] 
+query41: search time = 9.356508 [ms] 
+query42: search time = 12.820109 [ms] 
+query43: search time = 14.318492 [ms] 
+query44: search time = 14.308463 [ms] 
+query45: search time = 8.826098 [ms] 
+query46: search time = 13.689270 [ms] 
+query47: search time = 15.015461 [ms] 
+query48: search time = 13.122031 [ms] 
+query49: search time = 7.594855 [ms] 
+query50: search time = 11.036161 [ms] 
+query51: search time = 22.651739 [ms] 
+query52: search time = 9.843041 [ms] 
+query53: search time = 9.385587 [ms] 
+query54: search time = 10.498352 [ms] 
+query55: search time = 8.246755 [ms] 
+query56: search time = 10.425578 [ms] 
+query57: search time = 9.944986 [ms] 
+query58: search time = 18.596041 [ms] 
+query59: search time = 13.395916 [ms] 
+query60: search time = 14.167340 [ms] 
+query61: search time = 15.213350 [ms] 
+query62: search time = 13.657794 [ms] 
+query63: search time = 17.044460 [ms] 
+query64: search time = 15.280301 [ms] 
+query65: search time = 14.117542 [ms] 
+query66: search time = 16.006365 [ms] 
+query67: search time = 15.636096 [ms] 
+query68: search time = 14.325954 [ms] 
+query69: search time = 15.679537 [ms] 
+query70: search time = 17.209230 [ms] 
+query71: search time = 12.244344 [ms] 
+query72: search time = 13.322551 [ms] 
+query73: search time = 14.080445 [ms] 
+query74: search time = 11.271654 [ms] 
+query75: search time = 13.391282 [ms] 
+query76: search time = 12.706129 [ms] 
+query77: search time = 10.250154 [ms] 
+query78: search time = 9.924639 [ms] 
+query79: search time = 9.503242 [ms] 
+query80: search time = 13.362130 [ms] 
+query81: search time = 9.799140 [ms] 
+query82: search time = 10.586808 [ms] 
+query83: search time = 12.743971 [ms] 
+query84: search time = 18.536541 [ms] 
+query85: search time = 14.336532 [ms] 
+query86: search time = 15.144961 [ms] 
+query87: search time = 14.217216 [ms] 
+query88: search time = 12.930156 [ms] 
+query89: search time = 15.762677 [ms] 
+query90: search time = 17.390112 [ms] 
+query91: search time = 13.769136 [ms] 
+query92: search time = 12.049077 [ms] 
+query93: search time = 13.519683 [ms] 
+query94: search time = 13.122233 [ms] 
+query95: search time = 9.482390 [ms] 
+query96: search time = 11.037425 [ms] 
+query97: search time = 22.500168 [ms] 
+query98: search time = 13.433701 [ms] 
+query99: search time = 11.401126 [ms] 
+ef200: search time = 1397.631577 [ms]  recall = 0.994000 per query
+query0: search time = 19.904966 [ms] 
+query1: search time = 31.230526 [ms] 
+query2: search time = 18.873565 [ms] 
+query3: search time = 24.715340 [ms] 
+query4: search time = 19.459321 [ms] 
+query5: search time = 30.663583 [ms] 
+query6: search time = 27.883678 [ms] 
+query7: search time = 28.155297 [ms] 
+query8: search time = 34.723557 [ms] 
+query9: search time = 24.675316 [ms] 
+query10: search time = 24.384001 [ms] 
+query11: search time = 24.497761 [ms] 
+query12: search time = 24.145976 [ms] 
+query13: search time = 18.759877 [ms] 
+query14: search time = 17.136684 [ms] 
+query15: search time = 21.680630 [ms] 
+query16: search time = 14.509191 [ms] 
+query17: search time = 22.283532 [ms] 
+query18: search time = 12.868443 [ms] 
+query19: search time = 21.729139 [ms] 
+query20: search time = 14.267651 [ms] 
+query21: search time = 17.377739 [ms] 
+query22: search time = 15.848351 [ms] 
+query23: search time = 15.310807 [ms] 
+query24: search time = 34.542748 [ms] 
+query25: search time = 25.311487 [ms] 
+query26: search time = 26.228688 [ms] 
+query27: search time = 21.837966 [ms] 
+query28: search time = 20.305228 [ms] 
+query29: search time = 20.473951 [ms] 
+query30: search time = 15.982382 [ms] 
+query31: search time = 23.006659 [ms] 
+query32: search time = 29.575968 [ms] 
+query33: search time = 19.593503 [ms] 
+query34: search time = 19.760305 [ms] 
+query35: search time = 18.994433 [ms] 
+query36: search time = 23.745738 [ms] 
+query37: search time = 25.118084 [ms] 
+query38: search time = 20.522902 [ms] 
+query39: search time = 22.047209 [ms] 
+query40: search time = 20.808048 [ms] 
+query41: search time = 13.273955 [ms] 
+query42: search time = 16.782287 [ms] 
+query43: search time = 19.474195 [ms] 
+query44: search time = 19.651170 [ms] 
+query45: search time = 11.233678 [ms] 
+query46: search time = 18.191334 [ms] 
+query47: search time = 20.790517 [ms] 
+query48: search time = 26.209058 [ms] 
+query49: search time = 13.795120 [ms] 
+query50: search time = 18.135850 [ms] 
+query51: search time = 37.699859 [ms] 
+query52: search time = 16.339087 [ms] 
+query53: search time = 13.403302 [ms] 
+query54: search time = 16.033949 [ms] 
+query55: search time = 12.033808 [ms] 
+query56: search time = 15.676572 [ms] 
+query57: search time = 19.134638 [ms] 
+query58: search time = 35.511804 [ms] 
+query59: search time = 22.333732 [ms] 
+query60: search time = 20.452291 [ms] 
+query61: search time = 21.479154 [ms] 
+query62: search time = 21.161677 [ms] 
+query63: search time = 26.495889 [ms] 
+query64: search time = 18.955261 [ms] 
+query65: search time = 22.106692 [ms] 
+query66: search time = 22.450186 [ms] 
+query67: search time = 22.432888 [ms] 
+query68: search time = 18.486633 [ms] 
+query69: search time = 19.092027 [ms] 
+query70: search time = 23.221301 [ms] 
+query71: search time = 15.559779 [ms] 
+query72: search time = 16.918251 [ms] 
+query73: search time = 18.643018 [ms] 
+query74: search time = 15.169088 [ms] 
+query75: search time = 18.601742 [ms] 
+query76: search time = 16.241649 [ms] 
+query77: search time = 13.267246 [ms] 
+query78: search time = 11.856164 [ms] 
+query79: search time = 13.309936 [ms] 
+query80: search time = 19.199478 [ms] 
+query81: search time = 18.951277 [ms] 
+query82: search time = 15.941593 [ms] 
+query83: search time = 14.700930 [ms] 
+query84: search time = 29.992012 [ms] 
+query85: search time = 26.763245 [ms] 
+query86: search time = 28.195583 [ms] 
+query87: search time = 24.831319 [ms] 
+query88: search time = 21.206578 [ms] 
+query89: search time = 26.744609 [ms] 
+query90: search time = 28.309275 [ms] 
+query91: search time = 24.813668 [ms] 
+query92: search time = 19.351065 [ms] 
+query93: search time = 18.446233 [ms] 
+query94: search time = 17.742603 [ms] 
+query95: search time = 14.691156 [ms] 
+query96: search time = 16.499424 [ms] 
+query97: search time = 34.344817 [ms] 
+query98: search time = 24.552240 [ms] 
+query99: search time = 19.512405 [ms] 
+ef300: search time = 2099.334527 [ms]  recall = 0.998500 per query
+query0: search time = 24.612640 [ms] 
+query1: search time = 34.942234 [ms] 
+query2: search time = 20.787735 [ms] 
+query3: search time = 31.362893 [ms] 
+query4: search time = 20.342736 [ms] 
+query5: search time = 35.085009 [ms] 
+query6: search time = 32.938747 [ms] 
+query7: search time = 38.951095 [ms] 
+query8: search time = 45.458016 [ms] 
+query9: search time = 29.627120 [ms] 
+query10: search time = 32.116194 [ms] 
+query11: search time = 32.554913 [ms] 
+query12: search time = 29.763775 [ms] 
+query13: search time = 20.162366 [ms] 
+query14: search time = 18.885893 [ms] 
+query15: search time = 25.692960 [ms] 
+query16: search time = 15.875749 [ms] 
+query17: search time = 32.131285 [ms] 
+query18: search time = 15.801920 [ms] 
+query19: search time = 24.744089 [ms] 
+query20: search time = 17.788457 [ms] 
+query21: search time = 20.957063 [ms] 
+query22: search time = 19.531424 [ms] 
+query23: search time = 17.763617 [ms] 
+query24: search time = 31.523019 [ms] 
+query25: search time = 32.567387 [ms] 
+query26: search time = 31.065547 [ms] 
+query27: search time = 30.013522 [ms] 
+query28: search time = 21.977684 [ms] 
+query29: search time = 25.063230 [ms] 
+query30: search time = 19.322261 [ms] 
+query31: search time = 34.268578 [ms] 
+query32: search time = 45.160960 [ms] 
+query33: search time = 24.181105 [ms] 
+query34: search time = 26.329748 [ms] 
+query35: search time = 28.224587 [ms] 
+query36: search time = 30.314793 [ms] 
+query37: search time = 31.345339 [ms] 
+query38: search time = 26.273697 [ms] 
+query39: search time = 28.304900 [ms] 
+query40: search time = 28.381693 [ms] 
+query41: search time = 17.622666 [ms] 
+query42: search time = 19.299435 [ms] 
+query43: search time = 26.337751 [ms] 
+query44: search time = 24.835080 [ms] 
+query45: search time = 13.907948 [ms] 
+query46: search time = 21.971603 [ms] 
+query47: search time = 29.823460 [ms] 
+query48: search time = 23.375463 [ms] 
+query49: search time = 16.052824 [ms] 
+query50: search time = 20.352892 [ms] 
+query51: search time = 40.533205 [ms] 
+query52: search time = 20.994301 [ms] 
+query53: search time = 16.227699 [ms] 
+query54: search time = 19.248186 [ms] 
+query55: search time = 15.522802 [ms] 
+query56: search time = 20.121749 [ms] 
+query57: search time = 26.672620 [ms] 
+query58: search time = 41.817777 [ms] 
+query59: search time = 28.854665 [ms] 
+query60: search time = 25.302040 [ms] 
+query61: search time = 26.334473 [ms] 
+query62: search time = 30.171535 [ms] 
+query63: search time = 42.121131 [ms] 
+query64: search time = 25.737488 [ms] 
+query65: search time = 35.496984 [ms] 
+query66: search time = 36.654875 [ms] 
+query67: search time = 31.955160 [ms] 
+query68: search time = 28.402696 [ms] 
+query69: search time = 27.060943 [ms] 
+query70: search time = 34.476768 [ms] 
+query71: search time = 25.059257 [ms] 
+query72: search time = 25.131135 [ms] 
+query73: search time = 26.608392 [ms] 
+query74: search time = 22.470369 [ms] 
+query75: search time = 24.981463 [ms] 
+query76: search time = 19.653395 [ms] 
+query77: search time = 17.690856 [ms] 
+query78: search time = 14.321039 [ms] 
+query79: search time = 16.990240 [ms] 
+query80: search time = 24.933533 [ms] 
+query81: search time = 14.190008 [ms] 
+query82: search time = 19.054735 [ms] 
+query83: search time = 17.166544 [ms] 
+query84: search time = 33.835090 [ms] 
+query85: search time = 31.903484 [ms] 
+query86: search time = 31.581951 [ms] 
+query87: search time = 31.444331 [ms] 
+query88: search time = 30.025233 [ms] 
+query89: search time = 32.429258 [ms] 
+query90: search time = 32.971409 [ms] 
+query91: search time = 27.183084 [ms] 
+query92: search time = 21.352668 [ms] 
+query93: search time = 20.896714 [ms] 
+query94: search time = 24.206856 [ms] 
+query95: search time = 21.385329 [ms] 
+query96: search time = 24.707560 [ms] 
+query97: search time = 47.894124 [ms] 
+query98: search time = 28.528914 [ms] 
+query99: search time = 24.414926 [ms] 
+ef400: search time = 2652.494096 [ms]  recall = 0.998500 per query
+query0: search time = 31.633966 [ms] 
+query1: search time = 41.117463 [ms] 
+query2: search time = 24.611612 [ms] 
+query3: search time = 36.707575 [ms] 
+query4: search time = 23.405758 [ms] 
+query5: search time = 41.549088 [ms] 
+query6: search time = 39.821183 [ms] 
+query7: search time = 38.976072 [ms] 
+query8: search time = 47.271443 [ms] 
+query9: search time = 34.443548 [ms] 
+query10: search time = 39.010782 [ms] 
+query11: search time = 37.089453 [ms] 
+query12: search time = 35.153262 [ms] 
+query13: search time = 25.306044 [ms] 
+query14: search time = 22.452954 [ms] 
+query15: search time = 29.435502 [ms] 
+query16: search time = 18.991872 [ms] 
+query17: search time = 40.303041 [ms] 
+query18: search time = 19.090625 [ms] 
+query19: search time = 30.630833 [ms] 
+query20: search time = 22.417196 [ms] 
+query21: search time = 25.795244 [ms] 
+query22: search time = 24.291702 [ms] 
+query23: search time = 21.063760 [ms] 
+query24: search time = 38.138610 [ms] 
+query25: search time = 38.250869 [ms] 
+query26: search time = 42.820037 [ms] 
+query27: search time = 43.364837 [ms] 
+query28: search time = 32.879481 [ms] 
+query29: search time = 30.983629 [ms] 
+query30: search time = 26.376779 [ms] 
+query31: search time = 38.379147 [ms] 
+query32: search time = 51.454302 [ms] 
+query33: search time = 31.849936 [ms] 
+query34: search time = 32.431462 [ms] 
+query35: search time = 32.775943 [ms] 
+query36: search time = 34.738716 [ms] 
+query37: search time = 36.688571 [ms] 
+query38: search time = 28.147958 [ms] 
+query39: search time = 32.139574 [ms] 
+query40: search time = 30.587046 [ms] 
+query41: search time = 22.313070 [ms] 
+query42: search time = 25.456480 [ms] 
+query43: search time = 34.603460 [ms] 
+query44: search time = 31.685507 [ms] 
+query45: search time = 17.145880 [ms] 
+query46: search time = 27.598817 [ms] 
+query47: search time = 36.371498 [ms] 
+query48: search time = 29.431598 [ms] 
+query49: search time = 20.791141 [ms] 
+query50: search time = 24.293655 [ms] 
+query51: search time = 54.577666 [ms] 
+query52: search time = 27.449442 [ms] 
+query53: search time = 19.004588 [ms] 
+query54: search time = 23.335338 [ms] 
+query55: search time = 18.368121 [ms] 
+query56: search time = 24.457146 [ms] 
+query57: search time = 27.791298 [ms] 
+query58: search time = 42.164765 [ms] 
+query59: search time = 37.391911 [ms] 
+query60: search time = 27.767189 [ms] 
+query61: search time = 30.356230 [ms] 
+query62: search time = 34.840526 [ms] 
+query63: search time = 43.233831 [ms] 
+query64: search time = 26.357434 [ms] 
+query65: search time = 35.846763 [ms] 
+query66: search time = 32.564357 [ms] 
+query67: search time = 29.517896 [ms] 
+query68: search time = 25.636745 [ms] 
+query69: search time = 24.203459 [ms] 
+query70: search time = 32.917439 [ms] 
+query71: search time = 24.021421 [ms] 
+query72: search time = 23.491082 [ms] 
+query73: search time = 22.537661 [ms] 
+query74: search time = 22.688744 [ms] 
+query75: search time = 30.201887 [ms] 
+query76: search time = 31.213954 [ms] 
+query77: search time = 18.545834 [ms] 
+query78: search time = 14.454390 [ms] 
+query79: search time = 19.438288 [ms] 
+query80: search time = 29.206488 [ms] 
+query81: search time = 15.410562 [ms] 
+query82: search time = 23.787949 [ms] 
+query83: search time = 19.037822 [ms] 
+query84: search time = 35.328372 [ms] 
+query85: search time = 33.569546 [ms] 
+query86: search time = 32.974614 [ms] 
+query87: search time = 31.674031 [ms] 
+query88: search time = 33.646731 [ms] 
+query89: search time = 37.824586 [ms] 
+query90: search time = 37.745653 [ms] 
+query91: search time = 27.289019 [ms] 
+query92: search time = 20.061505 [ms] 
+query93: search time = 22.731273 [ms] 
+query94: search time = 23.525934 [ms] 
+query95: search time = 19.593811 [ms] 
+query96: search time = 22.793177 [ms] 
+query97: search time = 42.697778 [ms] 
+query98: search time = 26.785859 [ms] 
+query99: search time = 28.600909 [ms] 
+ef500: search time = 3010.929005 [ms]  recall = 0.999000 per query
+query0: search time = 28.049223 [ms] 
+query1: search time = 40.163858 [ms] 
+query2: search time = 24.377696 [ms] 
+query3: search time = 36.546251 [ms] 
+query4: search time = 29.511937 [ms] 
+query5: search time = 41.534467 [ms] 
+query6: search time = 41.610919 [ms] 
+query7: search time = 39.631901 [ms] 
+query8: search time = 48.112599 [ms] 
+query9: search time = 32.307002 [ms] 
+query10: search time = 30.564796 [ms] 
+query11: search time = 35.701317 [ms] 
+query12: search time = 33.698992 [ms] 
+query13: search time = 26.725322 [ms] 
+query14: search time = 22.732362 [ms] 
+query15: search time = 28.994149 [ms] 
+query16: search time = 19.976917 [ms] 
+query17: search time = 31.610771 [ms] 
+query18: search time = 19.217244 [ms] 
+query19: search time = 28.811880 [ms] 
+query20: search time = 22.189601 [ms] 
+query21: search time = 26.646352 [ms] 
+query22: search time = 24.375134 [ms] 
+query23: search time = 21.733819 [ms] 
+query24: search time = 33.310309 [ms] 
+query25: search time = 33.949288 [ms] 
+query26: search time = 37.213584 [ms] 
+query27: search time = 33.419504 [ms] 
+query28: search time = 25.055190 [ms] 
+query29: search time = 29.564759 [ms] 
+query30: search time = 22.843593 [ms] 
+query31: search time = 34.940579 [ms] 
+query32: search time = 41.767785 [ms] 
+query33: search time = 23.631783 [ms] 
+query34: search time = 28.676538 [ms] 
+query35: search time = 28.822101 [ms] 
+query36: search time = 30.885125 [ms] 
+query37: search time = 32.511978 [ms] 
+query38: search time = 25.245742 [ms] 
+query39: search time = 31.338957 [ms] 
+query40: search time = 27.598413 [ms] 
+query41: search time = 22.863221 [ms] 
+query42: search time = 22.059905 [ms] 
+query43: search time = 30.527384 [ms] 
+query44: search time = 27.017095 [ms] 
+query45: search time = 16.644090 [ms] 
+query46: search time = 26.114290 [ms] 
+query47: search time = 30.011175 [ms] 
+query48: search time = 27.676892 [ms] 
+query49: search time = 18.662945 [ms] 
+query50: search time = 23.938907 [ms] 
+query51: search time = 43.629499 [ms] 
+query52: search time = 27.711533 [ms] 
+query53: search time = 21.389193 [ms] 
+query54: search time = 23.617797 [ms] 
+query55: search time = 21.326117 [ms] 
+query56: search time = 26.537386 [ms] 
+query57: search time = 23.895746 [ms] 
+query58: search time = 38.104104 [ms] 
+query59: search time = 26.120461 [ms] 
+query60: search time = 26.162909 [ms] 
+query61: search time = 26.725128 [ms] 
+query62: search time = 27.359910 [ms] 
+query63: search time = 33.451193 [ms] 
+query64: search time = 28.416846 [ms] 
+query65: search time = 24.584042 [ms] 
+query66: search time = 30.447465 [ms] 
+query67: search time = 24.614922 [ms] 
+query68: search time = 25.150010 [ms] 
+query69: search time = 24.875333 [ms] 
+query70: search time = 31.552104 [ms] 
+query71: search time = 25.712569 [ms] 
+query72: search time = 24.315158 [ms] 
+query73: search time = 23.221538 [ms] 
+query74: search time = 21.040725 [ms] 
+query75: search time = 18.784378 [ms] 
+query76: search time = 19.606050 [ms] 
+query77: search time = 18.105333 [ms] 
+query78: search time = 16.308157 [ms] 
+query79: search time = 16.758090 [ms] 
+query80: search time = 27.818472 [ms] 
+query81: search time = 18.159774 [ms] 
+query82: search time = 23.167308 [ms] 
+query83: search time = 20.092824 [ms] 
+query84: search time = 31.373844 [ms] 
+query85: search time = 27.707381 [ms] 
+query86: search time = 30.517247 [ms] 
+query87: search time = 33.069573 [ms] 
+query88: search time = 21.647681 [ms] 
+query89: search time = 32.789900 [ms] 
+query90: search time = 30.925086 [ms] 
+query91: search time = 25.147337 [ms] 
+query92: search time = 21.706655 [ms] 
+query93: search time = 24.724268 [ms] 
+query94: search time = 26.430146 [ms] 
+query95: search time = 20.551927 [ms] 
+query96: search time = 21.017650 [ms] 
+query97: search time = 39.054333 [ms] 
+query98: search time = 25.795640 [ms] 
+query99: search time = 22.512669 [ms] 
+ef600: search time = 2764.849052 [ms]  recall = 0.999000 per query
+query0: search time = 26.517733 [ms] 
+query1: search time = 37.275744 [ms] 
+query2: search time = 25.572398 [ms] 
+query3: search time = 34.888411 [ms] 
+query4: search time = 26.935311 [ms] 
+query5: search time = 41.889068 [ms] 
+query6: search time = 41.962288 [ms] 
+query7: search time = 39.615221 [ms] 
+query8: search time = 48.555475 [ms] 
+query9: search time = 34.567203 [ms] 
+query10: search time = 30.724134 [ms] 
+query11: search time = 36.733272 [ms] 
+query12: search time = 37.045462 [ms] 
+query13: search time = 29.937506 [ms] 
+query14: search time = 24.364791 [ms] 
+query15: search time = 32.219376 [ms] 
+query16: search time = 22.281649 [ms] 
+query17: search time = 31.717206 [ms] 
+query18: search time = 21.276473 [ms] 
+query19: search time = 31.518259 [ms] 
+query20: search time = 25.281220 [ms] 
+query21: search time = 29.690791 [ms] 
+query22: search time = 26.043927 [ms] 
+query23: search time = 24.820877 [ms] 
+query24: search time = 35.701336 [ms] 
+query25: search time = 34.269333 [ms] 
+query26: search time = 39.108324 [ms] 
+query27: search time = 36.300967 [ms] 
+query28: search time = 27.263429 [ms] 
+query29: search time = 32.454273 [ms] 
+query30: search time = 25.771727 [ms] 
+query31: search time = 36.733836 [ms] 
+query32: search time = 42.425089 [ms] 
+query33: search time = 24.771318 [ms] 
+query34: search time = 28.840575 [ms] 
+query35: search time = 31.349021 [ms] 
+query36: search time = 33.429994 [ms] 
+query37: search time = 35.481007 [ms] 
+query38: search time = 27.904761 [ms] 
+query39: search time = 35.382180 [ms] 
+query40: search time = 31.331491 [ms] 
+query41: search time = 23.978308 [ms] 
+query42: search time = 25.380152 [ms] 
+query43: search time = 33.891360 [ms] 
+query44: search time = 30.679770 [ms] 
+query45: search time = 19.308430 [ms] 
+query46: search time = 28.491414 [ms] 
+query47: search time = 33.200808 [ms] 
+query48: search time = 33.588949 [ms] 
+query49: search time = 21.531434 [ms] 
+query50: search time = 27.111692 [ms] 
+query51: search time = 47.504773 [ms] 
+query52: search time = 32.137822 [ms] 
+query53: search time = 24.605273 [ms] 
+query54: search time = 27.553740 [ms] 
+query55: search time = 24.587128 [ms] 
+query56: search time = 30.827375 [ms] 
+query57: search time = 27.235844 [ms] 
+query58: search time = 42.204855 [ms] 
+query59: search time = 29.576916 [ms] 
+query60: search time = 29.133871 [ms] 
+query61: search time = 30.325737 [ms] 
+query62: search time = 31.085523 [ms] 
+query63: search time = 39.504497 [ms] 
+query64: search time = 32.231606 [ms] 
+query65: search time = 28.202027 [ms] 
+query66: search time = 34.344227 [ms] 
+query67: search time = 28.222722 [ms] 
+query68: search time = 28.426632 [ms] 
+query69: search time = 27.907174 [ms] 
+query70: search time = 36.864549 [ms] 
+query71: search time = 30.384317 [ms] 
+query72: search time = 27.369158 [ms] 
+query73: search time = 26.646783 [ms] 
+query74: search time = 23.901198 [ms] 
+query75: search time = 21.909860 [ms] 
+query76: search time = 22.337722 [ms] 
+query77: search time = 20.651292 [ms] 
+query78: search time = 18.492199 [ms] 
+query79: search time = 18.766582 [ms] 
+query80: search time = 33.119562 [ms] 
+query81: search time = 18.617901 [ms] 
+query82: search time = 27.279129 [ms] 
+query83: search time = 24.346203 [ms] 
+query84: search time = 36.023466 [ms] 
+query85: search time = 31.768733 [ms] 
+query86: search time = 36.449721 [ms] 
+query87: search time = 37.480026 [ms] 
+query88: search time = 25.937558 [ms] 
+query89: search time = 38.098695 [ms] 
+query90: search time = 35.492587 [ms] 
+query91: search time = 30.109891 [ms] 
+query92: search time = 25.010169 [ms] 
+query93: search time = 29.530668 [ms] 
+query94: search time = 30.357506 [ms] 
+query95: search time = 23.925180 [ms] 
+query96: search time = 24.087123 [ms] 
+query97: search time = 44.930053 [ms] 
+query98: search time = 30.357142 [ms] 
+query99: search time = 27.214323 [ms] 
+ef700: search time = 3050.191811 [ms]  recall = 0.999000 per query
+query0: search time = 31.117096 [ms] 
+query1: search time = 42.701419 [ms] 
+query2: search time = 28.604336 [ms] 
+query3: search time = 37.957559 [ms] 
+query4: search time = 29.530201 [ms] 
+query5: search time = 45.868159 [ms] 
+query6: search time = 45.545475 [ms] 
+query7: search time = 42.994730 [ms] 
+query8: search time = 54.595905 [ms] 
+query9: search time = 37.612267 [ms] 
+query10: search time = 34.835875 [ms] 
+query11: search time = 39.961441 [ms] 
+query12: search time = 41.451801 [ms] 
+query13: search time = 32.768001 [ms] 
+query14: search time = 27.051405 [ms] 
+query15: search time = 33.910453 [ms] 
+query16: search time = 24.461990 [ms] 
+query17: search time = 36.442608 [ms] 
+query18: search time = 24.387793 [ms] 
+query19: search time = 35.157006 [ms] 
+query20: search time = 29.643189 [ms] 
+query21: search time = 33.248034 [ms] 
+query22: search time = 29.686113 [ms] 
+query23: search time = 28.488714 [ms] 
+query24: search time = 39.586004 [ms] 
+query25: search time = 38.240781 [ms] 
+query26: search time = 43.237779 [ms] 
+query27: search time = 38.951338 [ms] 
+query28: search time = 30.410940 [ms] 
+query29: search time = 35.538063 [ms] 
+query30: search time = 30.408900 [ms] 
+query31: search time = 40.921357 [ms] 
+query32: search time = 47.769780 [ms] 
+query33: search time = 27.495530 [ms] 
+query34: search time = 31.840690 [ms] 
+query35: search time = 35.045797 [ms] 
+query36: search time = 37.296885 [ms] 
+query37: search time = 39.062955 [ms] 
+query38: search time = 30.496884 [ms] 
+query39: search time = 38.900388 [ms] 
+query40: search time = 35.370760 [ms] 
+query41: search time = 26.703614 [ms] 
+query42: search time = 39.345397 [ms] 
+query43: search time = 37.245637 [ms] 
+query44: search time = 33.707066 [ms] 
+query45: search time = 21.195695 [ms] 
+query46: search time = 32.256362 [ms] 
+query47: search time = 38.080342 [ms] 
+query48: search time = 35.466948 [ms] 
+query49: search time = 24.533273 [ms] 
+query50: search time = 30.120781 [ms] 
+query51: search time = 51.851175 [ms] 
+query52: search time = 35.426412 [ms] 
+query53: search time = 27.337916 [ms] 
+query54: search time = 30.521702 [ms] 
+query55: search time = 28.509325 [ms] 
+query56: search time = 34.827947 [ms] 
+query57: search time = 29.604756 [ms] 
+query58: search time = 45.617761 [ms] 
+query59: search time = 33.589970 [ms] 
+query60: search time = 31.373796 [ms] 
+query61: search time = 34.013227 [ms] 
+query62: search time = 35.036006 [ms] 
+query63: search time = 42.261854 [ms] 
+query64: search time = 36.198585 [ms] 
+query65: search time = 30.304356 [ms] 
+query66: search time = 37.833667 [ms] 
+query67: search time = 30.384798 [ms] 
+query68: search time = 31.151792 [ms] 
+query69: search time = 30.541289 [ms] 
+query70: search time = 40.315449 [ms] 
+query71: search time = 34.120437 [ms] 
+query72: search time = 29.947406 [ms] 
+query73: search time = 28.814278 [ms] 
+query74: search time = 27.102374 [ms] 
+query75: search time = 22.726360 [ms] 
+query76: search time = 23.681581 [ms] 
+query77: search time = 22.486133 [ms] 
+query78: search time = 20.231930 [ms] 
+query79: search time = 20.692482 [ms] 
+query80: search time = 36.006477 [ms] 
+query81: search time = 29.503524 [ms] 
+query82: search time = 30.339691 [ms] 
+query83: search time = 24.140519 [ms] 
+query84: search time = 38.446861 [ms] 
+query85: search time = 33.292025 [ms] 
+query86: search time = 38.624172 [ms] 
+query87: search time = 41.719888 [ms] 
+query88: search time = 26.353734 [ms] 
+query89: search time = 39.961095 [ms] 
+query90: search time = 36.290797 [ms] 
+query91: search time = 32.340160 [ms] 
+query92: search time = 27.303303 [ms] 
+query93: search time = 31.889113 [ms] 
+query94: search time = 33.565122 [ms] 
+query95: search time = 26.570238 [ms] 
+query96: search time = 26.365787 [ms] 
+query97: search time = 47.864912 [ms] 
+query98: search time = 32.431066 [ms] 
+query99: search time = 29.147734 [ms] 
+ef800: search time = 3375.912498 [ms]  recall = 0.999500 per query
+query0: search time = 32.878504 [ms] 
+query1: search time = 44.386676 [ms] 
+query2: search time = 29.754215 [ms] 
+query3: search time = 39.972188 [ms] 
+query4: search time = 31.215206 [ms] 
+query5: search time = 48.703778 [ms] 
+query6: search time = 49.181614 [ms] 
+query7: search time = 46.442793 [ms] 
+query8: search time = 57.274017 [ms] 
+query9: search time = 40.330232 [ms] 
+query10: search time = 36.507689 [ms] 
+query11: search time = 42.828020 [ms] 
+query12: search time = 43.573844 [ms] 
+query13: search time = 35.865306 [ms] 
+query14: search time = 28.958111 [ms] 
+query15: search time = 36.348830 [ms] 
+query16: search time = 28.890391 [ms] 
+query17: search time = 39.205980 [ms] 
+query18: search time = 27.796788 [ms] 
+query19: search time = 37.914560 [ms] 
+query20: search time = 33.446951 [ms] 
+query21: search time = 36.833067 [ms] 
+query22: search time = 32.928568 [ms] 
+query23: search time = 31.606941 [ms] 
+query24: search time = 42.170023 [ms] 
+query25: search time = 41.924818 [ms] 
+query26: search time = 47.676702 [ms] 
+query27: search time = 44.057395 [ms] 
+query28: search time = 33.851254 [ms] 
+query29: search time = 39.783379 [ms] 
+query30: search time = 34.182725 [ms] 
+query31: search time = 45.174296 [ms] 
+query32: search time = 50.902359 [ms] 
+query33: search time = 29.748155 [ms] 
+query34: search time = 35.709844 [ms] 
+query35: search time = 38.808879 [ms] 
+query36: search time = 40.877311 [ms] 
+query37: search time = 42.695632 [ms] 
+query38: search time = 34.701687 [ms] 
+query39: search time = 43.281832 [ms] 
+query40: search time = 38.558447 [ms] 
+query41: search time = 29.632847 [ms] 
+query42: search time = 30.625155 [ms] 
+query43: search time = 40.506151 [ms] 
+query44: search time = 36.530537 [ms] 
+query45: search time = 23.360206 [ms] 
+query46: search time = 35.220560 [ms] 
+query47: search time = 42.880610 [ms] 
+query48: search time = 39.916953 [ms] 
+query49: search time = 27.901463 [ms] 
+query50: search time = 33.477270 [ms] 
+query51: search time = 55.931742 [ms] 
+query52: search time = 39.084891 [ms] 
+query53: search time = 30.741187 [ms] 
+query54: search time = 34.582236 [ms] 
+query55: search time = 31.892199 [ms] 
+query56: search time = 37.806658 [ms] 
+query57: search time = 32.787581 [ms] 
+query58: search time = 49.770416 [ms] 
+query59: search time = 35.846983 [ms] 
+query60: search time = 34.528581 [ms] 
+query61: search time = 36.925724 [ms] 
+query62: search time = 38.374789 [ms] 
+query63: search time = 47.043151 [ms] 
+query64: search time = 39.859003 [ms] 
+query65: search time = 32.126387 [ms] 
+query66: search time = 41.640177 [ms] 
+query67: search time = 33.241835 [ms] 
+query68: search time = 33.911416 [ms] 
+query69: search time = 32.542439 [ms] 
+query70: search time = 43.647463 [ms] 
+query71: search time = 38.367603 [ms] 
+query72: search time = 32.701523 [ms] 
+query73: search time = 31.619070 [ms] 
+query74: search time = 29.872587 [ms] 
+query75: search time = 25.653109 [ms] 
+query76: search time = 26.500506 [ms] 
+query77: search time = 24.942264 [ms] 
+query78: search time = 22.180673 [ms] 
+query79: search time = 22.004589 [ms] 
+query80: search time = 39.551132 [ms] 
+query81: search time = 23.059963 [ms] 
+query82: search time = 33.720503 [ms] 
+query83: search time = 26.742620 [ms] 
+query84: search time = 42.175745 [ms] 
+query85: search time = 36.019909 [ms] 
+query86: search time = 42.632829 [ms] 
+query87: search time = 45.417286 [ms] 
+query88: search time = 26.399662 [ms] 
+query89: search time = 43.957659 [ms] 
+query90: search time = 39.155467 [ms] 
+query91: search time = 36.485265 [ms] 
+query92: search time = 31.440584 [ms] 
+query93: search time = 34.838628 [ms] 
+query94: search time = 37.159597 [ms] 
+query95: search time = 29.618542 [ms] 
+query96: search time = 28.451113 [ms] 
+query97: search time = 51.755093 [ms] 
+query98: search time = 36.269864 [ms] 
+query99: search time = 31.678088 [ms] 
+ef900: search time = 3669.657090 [ms]  recall = 0.999500 per query
+query0: search time = 35.194270 [ms] 
+query1: search time = 48.553678 [ms] 
+query2: search time = 32.780699 [ms] 
+query3: search time = 43.839266 [ms] 
+query4: search time = 34.194570 [ms] 
+query5: search time = 52.783253 [ms] 
+query6: search time = 53.665655 [ms] 
+query7: search time = 48.528221 [ms] 
+query8: search time = 60.478106 [ms] 
+query9: search time = 43.152453 [ms] 
+query10: search time = 39.341459 [ms] 
+query11: search time = 47.094348 [ms] 
+query12: search time = 48.120647 [ms] 
+query13: search time = 39.248465 [ms] 
+query14: search time = 31.894516 [ms] 
+query15: search time = 39.348026 [ms] 
+query16: search time = 29.234475 [ms] 
+query17: search time = 42.603817 [ms] 
+query18: search time = 30.032962 [ms] 
+query19: search time = 41.315380 [ms] 
+query20: search time = 36.814456 [ms] 
+query21: search time = 40.032003 [ms] 
+query22: search time = 35.821821 [ms] 
+query23: search time = 46.939580 [ms] 
+query24: search time = 47.216615 [ms] 
+query25: search time = 46.250479 [ms] 
+query26: search time = 53.119666 [ms] 
+query27: search time = 48.075886 [ms] 
+query28: search time = 36.919778 [ms] 
+query29: search time = 42.822692 [ms] 
+query30: search time = 38.397337 [ms] 
+query31: search time = 48.508077 [ms] 
+query32: search time = 54.428923 [ms] 
+query33: search time = 32.146813 [ms] 
+query34: search time = 37.953731 [ms] 
+query35: search time = 42.265763 [ms] 
+query36: search time = 44.757478 [ms] 
+query37: search time = 46.137226 [ms] 
+query38: search time = 38.485036 [ms] 
+query39: search time = 47.530933 [ms] 
+query40: search time = 42.423315 [ms] 
+query41: search time = 32.852797 [ms] 
+query42: search time = 33.733253 [ms] 
+query43: search time = 44.366385 [ms] 
+query44: search time = 39.089795 [ms] 
+query45: search time = 26.123772 [ms] 
+query46: search time = 38.369855 [ms] 
+query47: search time = 46.878527 [ms] 
+query48: search time = 44.566427 [ms] 
+query49: search time = 31.306250 [ms] 
+query50: search time = 36.708015 [ms] 
+query51: search time = 60.873619 [ms] 
+query52: search time = 43.413684 [ms] 
+query53: search time = 34.758472 [ms] 
+query54: search time = 37.833574 [ms] 
+query55: search time = 35.831905 [ms] 
+query56: search time = 42.330133 [ms] 
+query57: search time = 35.294811 [ms] 
+query58: search time = 53.794689 [ms] 
+query59: search time = 39.475796 [ms] 
+query60: search time = 36.991863 [ms] 
+query61: search time = 40.424154 [ms] 
+query62: search time = 42.296463 [ms] 
+query63: search time = 52.251010 [ms] 
+query64: search time = 43.623094 [ms] 
+query65: search time = 35.110677 [ms] 
+query66: search time = 45.322251 [ms] 
+query67: search time = 35.891596 [ms] 
+query68: search time = 36.886816 [ms] 
+query69: search time = 35.802774 [ms] 
+query70: search time = 47.234587 [ms] 
+query71: search time = 42.968869 [ms] 
+query72: search time = 35.720106 [ms] 
+query73: search time = 34.507728 [ms] 
+query74: search time = 31.732611 [ms] 
+query75: search time = 27.539443 [ms] 
+query76: search time = 28.735023 [ms] 
+query77: search time = 27.031192 [ms] 
+query78: search time = 24.410835 [ms] 
+query79: search time = 23.733174 [ms] 
+query80: search time = 44.450056 [ms] 
+query81: search time = 25.506646 [ms] 
+query82: search time = 37.430099 [ms] 
+query83: search time = 28.803011 [ms] 
+query84: search time = 57.275134 [ms] 
+query85: search time = 39.134876 [ms] 
+query86: search time = 46.366421 [ms] 
+query87: search time = 49.601931 [ms] 
+query88: search time = 27.435171 [ms] 
+query89: search time = 46.734182 [ms] 
+query90: search time = 42.257597 [ms] 
+query91: search time = 39.675083 [ms] 
+query92: search time = 34.374711 [ms] 
+query93: search time = 38.278846 [ms] 
+query94: search time = 41.344026 [ms] 
+query95: search time = 32.198660 [ms] 
+query96: search time = 31.040857 [ms] 
+query97: search time = 56.254494 [ms] 
+query98: search time = 38.960113 [ms] 
+query99: search time = 34.494012 [ms] 
+ef1000: search time = 4025.883825 [ms]  recall = 0.999500 per query
+query0: search time = 37.891835 [ms] 
+query1: search time = 51.804445 [ms] 
+query2: search time = 34.575624 [ms] 
+query3: search time = 46.585500 [ms] 
+query4: search time = 36.503448 [ms] 
+query5: search time = 56.764935 [ms] 
+query6: search time = 58.211770 [ms] 
+query7: search time = 52.785490 [ms] 
+query8: search time = 64.031193 [ms] 
+query9: search time = 46.071597 [ms] 
+query10: search time = 42.800995 [ms] 
+query11: search time = 49.467648 [ms] 
+query12: search time = 52.051818 [ms] 
+query13: search time = 43.086784 [ms] 
+query14: search time = 34.349754 [ms] 
+query15: search time = 42.575960 [ms] 
+query16: search time = 32.262704 [ms] 
+query17: search time = 46.040910 [ms] 
+query18: search time = 33.036101 [ms] 
+query19: search time = 45.043358 [ms] 
+query20: search time = 39.949687 [ms] 
+query21: search time = 43.747351 [ms] 
+query22: search time = 39.043196 [ms] 
+query23: search time = 37.797780 [ms] 
+query24: search time = 51.501722 [ms] 
+query25: search time = 51.189580 [ms] 
+query26: search time = 57.137043 [ms] 
+query27: search time = 52.169445 [ms] 
+query28: search time = 40.892446 [ms] 
+query29: search time = 47.088170 [ms] 
+query30: search time = 42.598834 [ms] 
+query31: search time = 52.303031 [ms] 
+query32: search time = 58.080831 [ms] 
+query33: search time = 33.957507 [ms] 
+query34: search time = 40.991677 [ms] 
+query35: search time = 46.995178 [ms] 
+query36: search time = 48.335401 [ms] 
+query37: search time = 57.918291 [ms] 
+query38: search time = 41.101587 [ms] 
+query39: search time = 51.205767 [ms] 
+query40: search time = 46.106360 [ms] 
+query41: search time = 36.120816 [ms] 
+query42: search time = 36.442477 [ms] 
+query43: search time = 47.601964 [ms] 
+query44: search time = 42.864087 [ms] 
+query45: search time = 28.517008 [ms] 
+query46: search time = 41.743755 [ms] 
+query47: search time = 52.657916 [ms] 
+query48: search time = 49.086315 [ms] 
+query49: search time = 34.162110 [ms] 
+query50: search time = 39.173887 [ms] 
+query51: search time = 64.607815 [ms] 
+query52: search time = 47.322709 [ms] 
+query53: search time = 38.524670 [ms] 
+query54: search time = 41.552754 [ms] 
+query55: search time = 39.575925 [ms] 
+query56: search time = 46.100505 [ms] 
+query57: search time = 38.365439 [ms] 
+query58: search time = 59.385659 [ms] 
+query59: search time = 42.732567 [ms] 
+query60: search time = 39.475727 [ms] 
+query61: search time = 43.291399 [ms] 
+query62: search time = 44.813483 [ms] 
+query63: search time = 55.276226 [ms] 
+query64: search time = 46.499929 [ms] 
+query65: search time = 38.316626 [ms] 
+query66: search time = 49.092197 [ms] 
+query67: search time = 38.791456 [ms] 
+query68: search time = 39.137355 [ms] 
+query69: search time = 38.059653 [ms] 
+query70: search time = 51.036917 [ms] 
+query71: search time = 46.727299 [ms] 
+query72: search time = 37.878981 [ms] 
+query73: search time = 37.155964 [ms] 
+query74: search time = 33.974753 [ms] 
+query75: search time = 29.638829 [ms] 
+query76: search time = 30.328868 [ms] 
+query77: search time = 28.999671 [ms] 
+query78: search time = 25.931640 [ms] 
+query79: search time = 25.612224 [ms] 
+query80: search time = 48.025413 [ms] 
+query81: search time = 27.797059 [ms] 
+query82: search time = 39.927266 [ms] 
+query83: search time = 30.910919 [ms] 
+query84: search time = 49.726101 [ms] 
+query85: search time = 42.945732 [ms] 
+query86: search time = 50.494373 [ms] 
+query87: search time = 53.278504 [ms] 
+query88: search time = 28.326849 [ms] 
+query89: search time = 50.846741 [ms] 
+query90: search time = 44.598414 [ms] 
+query91: search time = 43.028021 [ms] 
+query92: search time = 37.553506 [ms] 
+query93: search time = 42.131414 [ms] 
+query94: search time = 45.570312 [ms] 
+query95: search time = 35.482226 [ms] 
+query96: search time = 34.271420 [ms] 
+query97: search time = 60.093704 [ms] 
+query98: search time = 42.083252 [ms] 
+query99: search time = 38.238981 [ms] 
+ef1100: search time = 4337.960535 [ms]  recall = 0.999500 per query
+query0: search time = 40.806273 [ms] 
+query1: search time = 56.725351 [ms] 
+query2: search time = 36.927489 [ms] 
+query3: search time = 48.897203 [ms] 
+query4: search time = 38.958367 [ms] 
+query5: search time = 61.112875 [ms] 
+query6: search time = 62.228830 [ms] 
+query7: search time = 56.414564 [ms] 
+query8: search time = 69.577028 [ms] 
+query9: search time = 49.192271 [ms] 
+query10: search time = 45.839391 [ms] 
+query11: search time = 54.442804 [ms] 
+query12: search time = 56.027684 [ms] 
+query13: search time = 46.446360 [ms] 
+query14: search time = 36.752168 [ms] 
+query15: search time = 45.475886 [ms] 
+query16: search time = 34.277342 [ms] 
+query17: search time = 49.672351 [ms] 
+query18: search time = 36.595262 [ms] 
+query19: search time = 49.093194 [ms] 
+query20: search time = 43.762214 [ms] 
+query21: search time = 47.688474 [ms] 
+query22: search time = 41.920333 [ms] 
+query23: search time = 41.471864 [ms] 
+query24: search time = 54.607611 [ms] 
+query25: search time = 53.744572 [ms] 
+query26: search time = 61.673223 [ms] 
+query27: search time = 56.812200 [ms] 
+query28: search time = 44.598545 [ms] 
+query29: search time = 51.462593 [ms] 
+query30: search time = 46.680276 [ms] 
+query31: search time = 56.080834 [ms] 
+query32: search time = 61.534443 [ms] 
+query33: search time = 36.684987 [ms] 
+query34: search time = 44.872101 [ms] 
+query35: search time = 51.596740 [ms] 
+query36: search time = 52.697560 [ms] 
+query37: search time = 54.442880 [ms] 
+query38: search time = 44.979131 [ms] 
+query39: search time = 55.296333 [ms] 
+query40: search time = 51.206029 [ms] 
+query41: search time = 38.716102 [ms] 
+query42: search time = 39.138893 [ms] 
+query43: search time = 51.295538 [ms] 
+query44: search time = 46.157372 [ms] 
+query45: search time = 30.731804 [ms] 
+query46: search time = 45.401697 [ms] 
+query47: search time = 57.362848 [ms] 
+query48: search time = 53.126816 [ms] 
+query49: search time = 37.555656 [ms] 
+query50: search time = 42.490823 [ms] 
+query51: search time = 68.855227 [ms] 
+query52: search time = 51.326187 [ms] 
+query53: search time = 42.525327 [ms] 
+query54: search time = 45.770774 [ms] 
+query55: search time = 42.828929 [ms] 
+query56: search time = 49.516348 [ms] 
+query57: search time = 41.130365 [ms] 
+query58: search time = 64.411319 [ms] 
+query59: search time = 46.083964 [ms] 
+query60: search time = 42.701166 [ms] 
+query61: search time = 47.022187 [ms] 
+query62: search time = 49.319142 [ms] 
+query63: search time = 59.007021 [ms] 
+query64: search time = 50.237250 [ms] 
+query65: search time = 41.286718 [ms] 
+query66: search time = 52.017659 [ms] 
+query67: search time = 42.066962 [ms] 
+query68: search time = 42.800490 [ms] 
+query69: search time = 40.618526 [ms] 
+query70: search time = 55.460610 [ms] 
+query71: search time = 51.438910 [ms] 
+query72: search time = 41.115720 [ms] 
+query73: search time = 40.443291 [ms] 
+query74: search time = 36.721623 [ms] 
+query75: search time = 32.318077 [ms] 
+query76: search time = 33.365565 [ms] 
+query77: search time = 30.867053 [ms] 
+query78: search time = 28.003448 [ms] 
+query79: search time = 27.482381 [ms] 
+query80: search time = 52.163725 [ms] 
+query81: search time = 30.546619 [ms] 
+query82: search time = 44.684998 [ms] 
+query83: search time = 33.106408 [ms] 
+query84: search time = 53.000532 [ms] 
+query85: search time = 44.417258 [ms] 
+query86: search time = 54.281320 [ms] 
+query87: search time = 57.458653 [ms] 
+query88: search time = 30.267419 [ms] 
+query89: search time = 54.817148 [ms] 
+query90: search time = 47.660595 [ms] 
+query91: search time = 47.265045 [ms] 
+query92: search time = 55.351282 [ms] 
+query93: search time = 45.930612 [ms] 
+query94: search time = 48.316032 [ms] 
+query95: search time = 37.452729 [ms] 
+query96: search time = 36.178425 [ms] 
+query97: search time = 64.484403 [ms] 
+query98: search time = 45.186724 [ms] 
+query99: search time = 41.243345 [ms] 
+ef1200: search time = 4691.808696 [ms]  recall = 1.000000 per query
+query0: search time = 43.013681 [ms] 
+query1: search time = 59.679834 [ms] 
+query2: search time = 39.007200 [ms] 
+query3: search time = 53.221974 [ms] 
+query4: search time = 41.716730 [ms] 
+query5: search time = 64.628747 [ms] 
+query6: search time = 65.790649 [ms] 
+query7: search time = 58.815799 [ms] 
+query8: search time = 73.774352 [ms] 
+query9: search time = 52.662895 [ms] 
+query10: search time = 49.053940 [ms] 
+query11: search time = 57.267588 [ms] 
+query12: search time = 59.077305 [ms] 
+query13: search time = 49.127950 [ms] 
+query14: search time = 39.969047 [ms] 
+query15: search time = 48.215074 [ms] 
+query16: search time = 36.604519 [ms] 
+query17: search time = 53.116573 [ms] 
+query18: search time = 38.734593 [ms] 
+query19: search time = 51.797323 [ms] 
+query20: search time = 47.561004 [ms] 
+query21: search time = 51.643205 [ms] 
+query22: search time = 45.850110 [ms] 
+query23: search time = 44.494593 [ms] 
+query24: search time = 57.517942 [ms] 
+query25: search time = 57.988129 [ms] 
+query26: search time = 65.167678 [ms] 
+query27: search time = 60.584012 [ms] 
+query28: search time = 49.011752 [ms] 
+query29: search time = 56.006230 [ms] 
+query30: search time = 50.926735 [ms] 
+query31: search time = 60.801401 [ms] 
+query32: search time = 65.512676 [ms] 
+query33: search time = 38.393991 [ms] 
+query34: search time = 47.395463 [ms] 
+query35: search time = 55.123919 [ms] 
+query36: search time = 55.816851 [ms] 
+query37: search time = 58.190996 [ms] 
+query38: search time = 48.313333 [ms] 
+query39: search time = 58.421631 [ms] 
+query40: search time = 54.440439 [ms] 
+query41: search time = 41.252291 [ms] 
+query42: search time = 41.834307 [ms] 
+query43: search time = 55.504212 [ms] 
+query44: search time = 48.940963 [ms] 
+query45: search time = 33.155133 [ms] 
+query46: search time = 48.782518 [ms] 
+query47: search time = 74.104206 [ms] 
+query48: search time = 56.858046 [ms] 
+query49: search time = 40.977382 [ms] 
+query50: search time = 45.824281 [ms] 
+query51: search time = 73.331529 [ms] 
+query52: search time = 54.960040 [ms] 
+query53: search time = 46.972910 [ms] 
+query54: search time = 49.572451 [ms] 
+query55: search time = 45.825006 [ms] 
+query56: search time = 52.791920 [ms] 
+query57: search time = 43.679617 [ms] 
+query58: search time = 68.523459 [ms] 
+query59: search time = 49.351437 [ms] 
+query60: search time = 46.183515 [ms] 
+query61: search time = 49.255327 [ms] 
+query62: search time = 51.797323 [ms] 
+query63: search time = 63.915187 [ms] 
+query64: search time = 53.369905 [ms] 
+query65: search time = 43.270572 [ms] 
+query66: search time = 55.751756 [ms] 
+query67: search time = 45.139673 [ms] 
+query68: search time = 44.666064 [ms] 
+query69: search time = 43.562712 [ms] 
+query70: search time = 60.257039 [ms] 
+query71: search time = 56.239909 [ms] 
+query72: search time = 44.094879 [ms] 
+query73: search time = 43.824487 [ms] 
+query74: search time = 39.264881 [ms] 
+query75: search time = 34.061757 [ms] 
+query76: search time = 34.588589 [ms] 
+query77: search time = 33.384416 [ms] 
+query78: search time = 30.324468 [ms] 
+query79: search time = 29.448950 [ms] 
+query80: search time = 55.364521 [ms] 
+query81: search time = 32.053194 [ms] 
+query82: search time = 47.540494 [ms] 
+query83: search time = 35.144654 [ms] 
+query84: search time = 55.713521 [ms] 
+query85: search time = 47.343968 [ms] 
+query86: search time = 58.654089 [ms] 
+query87: search time = 61.913415 [ms] 
+query88: search time = 31.223024 [ms] 
+query89: search time = 57.767347 [ms] 
+query90: search time = 50.294240 [ms] 
+query91: search time = 50.372215 [ms] 
+query92: search time = 43.811019 [ms] 
+query93: search time = 49.478037 [ms] 
+query94: search time = 52.249679 [ms] 
+query95: search time = 40.405449 [ms] 
+query96: search time = 38.585536 [ms] 
+query97: search time = 67.906334 [ms] 
+query98: search time = 48.544403 [ms] 
+query99: search time = 44.850639 [ms] 
+ef1300: search time = 5008.296758 [ms]  recall = 1.000000 per query
+query0: search time = 45.958203 [ms] 
+query1: search time = 62.474297 [ms] 
+query2: search time = 40.621695 [ms] 
+query3: search time = 55.703765 [ms] 
+query4: search time = 51.609758 [ms] 
+query5: search time = 68.903230 [ms] 
+query6: search time = 69.820837 [ms] 
+query7: search time = 61.266304 [ms] 
+query8: search time = 75.992309 [ms] 
+query9: search time = 55.292081 [ms] 
+query10: search time = 51.884478 [ms] 
+query11: search time = 61.040483 [ms] 
+query12: search time = 62.554074 [ms] 
+query13: search time = 51.978978 [ms] 
+query14: search time = 41.534136 [ms] 
+query15: search time = 51.316392 [ms] 
+query16: search time = 39.041538 [ms] 
+query17: search time = 56.613688 [ms] 
+query18: search time = 41.584714 [ms] 
+query19: search time = 54.941666 [ms] 
+query20: search time = 51.060477 [ms] 
+query21: search time = 56.067690 [ms] 
+query22: search time = 47.915069 [ms] 
+query23: search time = 47.885172 [ms] 
+query24: search time = 61.758994 [ms] 
+query25: search time = 61.591323 [ms] 
+query26: search time = 69.610558 [ms] 
+query27: search time = 64.908612 [ms] 
+query28: search time = 52.871984 [ms] 
+query29: search time = 59.428864 [ms] 
+query30: search time = 54.949629 [ms] 
+query31: search time = 63.783721 [ms] 
+query32: search time = 68.343076 [ms] 
+query33: search time = 40.653205 [ms] 
+query34: search time = 50.244993 [ms] 
+query35: search time = 59.219336 [ms] 
+query36: search time = 60.351828 [ms] 
+query37: search time = 60.808412 [ms] 
+query38: search time = 51.822943 [ms] 
+query39: search time = 62.853915 [ms] 
+query40: search time = 57.412322 [ms] 
+query41: search time = 43.818758 [ms] 
+query42: search time = 44.502947 [ms] 
+query43: search time = 59.485045 [ms] 
+query44: search time = 52.390802 [ms] 
+query45: search time = 35.632754 [ms] 
+query46: search time = 51.435404 [ms] 
+query47: search time = 65.550210 [ms] 
+query48: search time = 61.726455 [ms] 
+query49: search time = 44.918538 [ms] 
+query50: search time = 49.625155 [ms] 
+query51: search time = 77.068019 [ms] 
+query52: search time = 57.852611 [ms] 
+query53: search time = 50.207972 [ms] 
+query54: search time = 52.231140 [ms] 
+query55: search time = 49.354042 [ms] 
+query56: search time = 56.920188 [ms] 
+query57: search time = 47.136059 [ms] 
+query58: search time = 74.267023 [ms] 
+query59: search time = 53.126663 [ms] 
+query60: search time = 47.178667 [ms] 
+query61: search time = 52.255953 [ms] 
+query62: search time = 56.059892 [ms] 
+query63: search time = 68.698291 [ms] 
+query64: search time = 58.991284 [ms] 
+query65: search time = 47.436065 [ms] 
+query66: search time = 63.013275 [ms] 
+query67: search time = 50.523778 [ms] 
+query68: search time = 49.549611 [ms] 
+query69: search time = 47.809083 [ms] 
+query70: search time = 65.464009 [ms] 
+query71: search time = 61.838363 [ms] 
+query72: search time = 48.604745 [ms] 
+query73: search time = 48.863267 [ms] 
+query74: search time = 43.870895 [ms] 
+query75: search time = 38.330860 [ms] 
+query76: search time = 38.904288 [ms] 
+query77: search time = 37.084944 [ms] 
+query78: search time = 33.907340 [ms] 
+query79: search time = 32.523336 [ms] 
+query80: search time = 62.295064 [ms] 
+query81: search time = 36.098042 [ms] 
+query82: search time = 53.127633 [ms] 
+query83: search time = 38.357563 [ms] 
+query84: search time = 61.902272 [ms] 
+query85: search time = 52.668903 [ms] 
+query86: search time = 65.406563 [ms] 
+query87: search time = 69.407518 [ms] 
+query88: search time = 34.450536 [ms] 
+query89: search time = 64.730390 [ms] 
+query90: search time = 56.511023 [ms] 
+query91: search time = 57.531537 [ms] 
+query92: search time = 49.530477 [ms] 
+query93: search time = 54.701665 [ms] 
+query94: search time = 58.291374 [ms] 
+query95: search time = 45.162711 [ms] 
+query96: search time = 43.315029 [ms] 
+query97: search time = 76.158491 [ms] 
+query98: search time = 54.085078 [ms] 
+query99: search time = 49.222264 [ms] 
+ef1400: search time = 5404.786613 [ms]  recall = 1.000000 per query
+query0: search time = 50.842575 [ms] 
+query1: search time = 69.574408 [ms] 
+query2: search time = 45.039598 [ms] 
+query3: search time = 60.744743 [ms] 
+query4: search time = 47.945942 [ms] 
+query5: search time = 76.203205 [ms] 
+query6: search time = 76.814675 [ms] 
+query7: search time = 68.094023 [ms] 
+query8: search time = 84.211563 [ms] 
+query9: search time = 60.663957 [ms] 
+query10: search time = 57.223280 [ms] 
+query11: search time = 67.262651 [ms] 
+query12: search time = 69.687021 [ms] 
+query13: search time = 57.749817 [ms] 
+query14: search time = 45.897823 [ms] 
+query15: search time = 56.291553 [ms] 
+query16: search time = 42.829688 [ms] 
+query17: search time = 63.303374 [ms] 
+query18: search time = 46.693908 [ms] 
+query19: search time = 61.044806 [ms] 
+query20: search time = 56.741450 [ms] 
+query21: search time = 61.991343 [ms] 
+query22: search time = 54.112287 [ms] 
+query23: search time = 53.386740 [ms] 
+query24: search time = 68.049965 [ms] 
+query25: search time = 69.925443 [ms] 
+query26: search time = 77.040598 [ms] 
+query27: search time = 71.765874 [ms] 
+query28: search time = 59.028754 [ms] 
+query29: search time = 66.077814 [ms] 
+query30: search time = 61.863274 [ms] 
+query31: search time = 70.922005 [ms] 
+query32: search time = 75.755424 [ms] 
+query33: search time = 45.081691 [ms] 
+query34: search time = 55.753468 [ms] 
+query35: search time = 68.273681 [ms] 
+query36: search time = 66.144614 [ms] 
+query37: search time = 68.750186 [ms] 
+query38: search time = 58.710556 [ms] 
+query39: search time = 69.141454 [ms] 
+query40: search time = 64.194376 [ms] 
+query41: search time = 48.786015 [ms] 
+query42: search time = 49.089637 [ms] 
+query43: search time = 65.576842 [ms] 
+query44: search time = 57.827701 [ms] 
+query45: search time = 40.270431 [ms] 
+query46: search time = 58.070262 [ms] 
+query47: search time = 73.918667 [ms] 
+query48: search time = 67.847675 [ms] 
+query49: search time = 49.399026 [ms] 
+query50: search time = 55.901282 [ms] 
+query51: search time = 84.517245 [ms] 
+query52: search time = 64.415557 [ms] 
+query53: search time = 57.051664 [ms] 
+query54: search time = 59.148691 [ms] 
+query55: search time = 56.295603 [ms] 
+query56: search time = 63.786054 [ms] 
+query57: search time = 51.401871 [ms] 
+query58: search time = 81.111011 [ms] 
+query59: search time = 58.088145 [ms] 
+query60: search time = 52.076234 [ms] 
+query61: search time = 58.375182 [ms] 
+query62: search time = 62.378671 [ms] 
+query63: search time = 75.081588 [ms] 
+query64: search time = 62.338524 [ms] 
+query65: search time = 49.733655 [ms] 
+query66: search time = 65.847281 [ms] 
+query67: search time = 52.948393 [ms] 
+query68: search time = 52.978985 [ms] 
+query69: search time = 50.178858 [ms] 
+query70: search time = 70.616439 [ms] 
+query71: search time = 66.063344 [ms] 
+query72: search time = 51.522162 [ms] 
+query73: search time = 51.516486 [ms] 
+query74: search time = 46.924420 [ms] 
+query75: search time = 43.587856 [ms] 
+query76: search time = 40.362718 [ms] 
+query77: search time = 39.367492 [ms] 
+query78: search time = 36.097733 [ms] 
+query79: search time = 34.163643 [ms] 
+query80: search time = 66.494200 [ms] 
+query81: search time = 38.437673 [ms] 
+query82: search time = 56.570998 [ms] 
+query83: search time = 40.864500 [ms] 
+query84: search time = 65.347907 [ms] 
+query85: search time = 54.958348 [ms] 
+query86: search time = 70.063421 [ms] 
+query87: search time = 72.341418 [ms] 
+query88: search time = 35.780347 [ms] 
+query89: search time = 69.497244 [ms] 
+query90: search time = 59.548084 [ms] 
+query91: search time = 60.495748 [ms] 
+query92: search time = 52.763549 [ms] 
+query93: search time = 58.216489 [ms] 
+query94: search time = 62.552537 [ms] 
+query95: search time = 48.642797 [ms] 
+query96: search time = 45.134576 [ms] 
+query97: search time = 79.335423 [ms] 
+query98: search time = 57.026050 [ms] 
+query99: search time = 52.217467 [ms] 
+ef1500: search time = 5901.781426 [ms]  recall = 1.000000 per query
+distance_time: 49567.190727 ms
+rotation_time: 6.690384 ms
+tot_dimension: 92320330624.000000
+tot_dist_calculation: 13535959.000000
+tot_full_dist: 1213700.000000
+predict_success: 0.000000
+predict_time: 0.000000 ms
+"32" : 70347.000000 , 
+"64" : 75303.000000 , 
+"96" : 95452.000000 , 
+"128" : 88085.000000 , 
+"160" : 124156.000000 , 
+"192" : 227843.000000 , 
+"224" : 189472.000000 , 
+"256" : 190973.000000 , 
+"288" : 140016.000000 , 
+"320" : 146302.000000 , 
+"352" : 124242.000000 , 
+"384" : 139186.000000 , 
+"416" : 158321.000000 , 
+"448" : 152656.000000 , 
+"480" : 216582.000000 , 
+"512" : 195913.000000 , 
+"544" : 173046.000000 , 
+"576" : 163494.000000 , 
+"608" : 140511.000000 , 
+"640" : 141701.000000 , 
+"672" : 145808.000000 , 
+"704" : 114494.000000 , 
+"736" : 111671.000000 , 
+"768" : 121513.000000 , 
+"800" : 124045.000000 , 
+"832" : 125069.000000 , 
+"864" : 149190.000000 , 
+"896" : 147216.000000 , 
+"928" : 104260.000000 , 
+"960" : 83774.000000 , 
+"992" : 74090.000000 , 
+"1024" : 84771.000000 , 
+"1056" : 75385.000000 , 
+"1088" : 74576.000000 , 
+"1120" : 75018.000000 , 
+"1152" : 81745.000000 , 
+"1184" : 67885.000000 , 
+"1216" : 57523.000000 , 
+"1248" : 68592.000000 , 
+"1280" : 63475.000000 , 
+"1312" : 35042.000000 , 
+"1344" : 29413.000000 , 
+"1376" : 27086.000000 , 
+"1408" : 27100.000000 , 
+"1440" : 44930.000000 , 
+"1472" : 35580.000000 , 
+"1504" : 31038.000000 , 
+"1536" : 37036.000000 , 
+"1568" : 38351.000000 , 
+"1600" : 42842.000000 , 
+"1632" : 48439.000000 , 
+"1664" : 54657.000000 , 
+"1696" : 38780.000000 , 
+"1728" : 34281.000000 , 
+"1760" : 33766.000000 , 
+"1792" : 32118.000000 , 
+"1824" : 40070.000000 , 
+"1856" : 42582.000000 , 
+"1888" : 51593.000000 , 
+"1920" : 67207.000000 , 
+"1952" : 24067.000000 , 
+"1984" : 21747.000000 , 
+"2016" : 16857.000000 , 
+"2048" : 16215.000000 , 
+"2080" : 20001.000000 , 
+"2112" : 18611.000000 , 
+"2144" : 21567.000000 , 
+"2176" : 20994.000000 , 
+"2208" : 16981.000000 , 
+"2240" : 17808.000000 , 
+"2272" : 18951.000000 , 
+"2304" : 21173.000000 , 
+"2336" : 17625.000000 , 
+"2368" : 15556.000000 , 
+"2400" : 11712.000000 , 
+"2432" : 14128.000000 , 
+"2464" : 28317.000000 , 
+"2496" : 37269.000000 , 
+"2528" : 51114.000000 , 
+"2560" : 51832.000000 , 
+"2592" : 36725.000000 , 
+"2624" : 39893.000000 , 
+"2656" : 37561.000000 , 
+"2688" : 39750.000000 , 
+"2720" : 22895.000000 , 
+"2752" : 18475.000000 , 
+"2784" : 14616.000000 , 
+"2816" : 11763.000000 , 
+"2848" : 17299.000000 , 
+"2880" : 26973.000000 , 
+"2912" : 29231.000000 , 
+"2944" : 30719.000000 , 
+"2976" : 16896.000000 , 
+"3008" : 13721.000000 , 
+"3040" : 12736.000000 , 
+"3072" : 11035.000000 , 
+"3104" : 12703.000000 , 
+"3136" : 17636.000000 , 
+"3168" : 18896.000000 , 
+"3200" : 19174.000000 , 
+"3232" : 17541.000000 , 
+"3264" : 18434.000000 , 
+"3296" : 18941.000000 , 
+"3328" : 19780.000000 , 
+"3360" : 28054.000000 , 
+"3392" : 29539.000000 , 
+"3424" : 29953.000000 , 
+"3456" : 28452.000000 , 
+"3488" : 18563.000000 , 
+"3520" : 18285.000000 , 
+"3552" : 13292.000000 , 
+"3584" : 15097.000000 , 
+"3616" : 25260.000000 , 
+"3648" : 32906.000000 , 
+"3680" : 30004.000000 , 
+"3712" : 39771.000000 , 
+"3744" : 24138.000000 , 
+"3776" : 19406.000000 , 
+"3808" : 21387.000000 , 
+"3840" : 15796.000000 , 
+"3872" : 14633.000000 , 
+"3904" : 12156.000000 , 
+"3936" : 11478.000000 , 
+"3968" : 11886.000000 , 
+"4000" : 12200.000000 , 
+"4032" : 9869.000000 , 
+"4064" : 10351.000000 , 
+"4096" : 10813.000000 , 
+"4128" : 14585.000000 , 
+"4160" : 18250.000000 , 
+"4192" : 20803.000000 , 
+"4224" : 22556.000000 , 
+"4256" : 27795.000000 , 
+"4288" : 35295.000000 , 
+"4320" : 31673.000000 , 
+"4352" : 36727.000000 , 
+"4384" : 26614.000000 , 
+"4416" : 27619.000000 , 
+"4448" : 24650.000000 , 
+"4480" : 28867.000000 , 
+"4512" : 28188.000000 , 
+"4544" : 28021.000000 , 
+"4576" : 24940.000000 , 
+"4608" : 29241.000000 , 
+"4640" : 35383.000000 , 
+"4672" : 33549.000000 , 
+"4704" : 34929.000000 , 
+"4736" : 28078.000000 , 
+"4768" : 19141.000000 , 
+"4800" : 14460.000000 , 
+"4832" : 14126.000000 , 
+"4864" : 11713.000000 , 
+"4896" : 12852.000000 , 
+"4928" : 12653.000000 , 
+"4960" : 15719.000000 , 
+"4992" : 14833.000000 , 
+"5024" : 15652.000000 , 
+"5056" : 14220.000000 , 
+"5088" : 15759.000000 , 
+"5120" : 13473.000000 , 
+"5152" : 10258.000000 , 
+"5184" : 10780.000000 , 
+"5216" : 9381.000000 , 
+"5248" : 8647.000000 , 
+"5280" : 13612.000000 , 
+"5312" : 11344.000000 , 
+"5344" : 16509.000000 , 
+"5376" : 14219.000000 , 
+"5408" : 11576.000000 , 
+"5440" : 13222.000000 , 
+"5472" : 13230.000000 , 
+"5504" : 16991.000000 , 
+"5536" : 11569.000000 , 
+"5568" : 9360.000000 , 
+"5600" : 9310.000000 , 
+"5632" : 10966.000000 , 
+"5664" : 6058.000000 , 
+"5696" : 5270.000000 , 
+"5728" : 4802.000000 , 
+"5760" : 4166.000000 , 
+"5792" : 4996.000000 , 
+"5824" : 5620.000000 , 
+"5856" : 5762.000000 , 
+"5888" : 5082.000000 , 
+"5920" : 4596.000000 , 
+"5952" : 3460.000000 , 
+"5984" : 4124.000000 , 
+"6016" : 5083.000000 , 
+"6048" : 5478.000000 , 
+"6080" : 6756.000000 , 
+"6112" : 6851.000000 , 
+"6144" : 7176.000000 , 
+"6176" : 8096.000000 , 
+"6208" : 7935.000000 , 
+"6240" : 7647.000000 , 
+"6272" : 8622.000000 , 
+"6304" : 5499.000000 , 
+"6336" : 4989.000000 , 
+"6368" : 5159.000000 , 
+"6400" : 3611.000000 , 
+"6432" : 5146.000000 , 
+"6464" : 6572.000000 , 
+"6496" : 5945.000000 , 
+"6528" : 6379.000000 , 
+"6560" : 8940.000000 , 
+"6592" : 11000.000000 , 
+"6624" : 12487.000000 , 
+"6656" : 14948.000000 , 
+"6688" : 6030.000000 , 
+"6720" : 6817.000000 , 
+"6752" : 5534.000000 , 
+"6784" : 5777.000000 , 
+"6816" : 4356.000000 , 
+"6848" : 4765.000000 , 
+"6880" : 4602.000000 , 
+"6912" : 5218.000000 , 
+"6944" : 6521.000000 , 
+"6976" : 7441.000000 , 
+"7008" : 7351.000000 , 
+"7040" : 8260.000000 , 
+"7072" : 7342.000000 , 
+"7104" : 7838.000000 , 
+"7136" : 6908.000000 , 
+"7168" : 5804.000000 , 
+"7200" : 6666.000000 , 
+"7232" : 6774.000000 , 
+"7264" : 8202.000000 , 
+"7296" : 7841.000000 , 
+"7328" : 6665.000000 , 
+"7360" : 5954.000000 , 
+"7392" : 6146.000000 , 
+"7424" : 6682.000000 , 
+"7456" : 9709.000000 , 
+"7488" : 12549.000000 , 
+"7520" : 11533.000000 , 
+"7552" : 15862.000000 , 
+"7584" : 9021.000000 , 
+"7616" : 11021.000000 , 
+"7648" : 9432.000000 , 
+"7680" : 10273.000000 , 
+"7712" : 8481.000000 , 
+"7744" : 8110.000000 , 
+"7776" : 6269.000000 , 
+"7808" : 7467.000000 , 
+"7840" : 6706.000000 , 
+"7872" : 7533.000000 , 
+"7904" : 7593.000000 , 
+"7936" : 7587.000000 , 
+"7968" : 5050.000000 , 
+"8000" : 3780.000000 , 
+"8032" : 4477.000000 , 
+"8064" : 3524.000000 , 
+"8096" : 4653.000000 , 
+"8128" : 5196.000000 , 
+"8160" : 5358.000000 , 
+"8192" : 4038.000000 , 
+"8224" : 4912.000000 , 
+"8256" : 5614.000000 , 
+"8288" : 6044.000000 , 
+"8320" : 6749.000000 , 
+"8352" : 4498.000000 , 
+"8384" : 4545.000000 , 
+"8416" : 3386.000000 , 
+"8448" : 3661.000000 , 
+"8480" : 4849.000000 , 
+"8512" : 4670.000000 , 
+"8544" : 4732.000000 , 
+"8576" : 5839.000000 , 
+"8608" : 3860.000000 , 
+"8640" : 4014.000000 , 
+"8672" : 3790.000000 , 
+"8704" : 3318.000000 , 
+"8736" : 6340.000000 , 
+"8768" : 7476.000000 , 
+"8800" : 8353.000000 , 
+"8832" : 7769.000000 , 
+"8864" : 7630.000000 , 
+"8896" : 8272.000000 , 
+"8928" : 7293.000000 , 
+"8960" : 8418.000000 , 
+"8992" : 5829.000000 , 
+"9024" : 5137.000000 , 
+"9056" : 5141.000000 , 
+"9088" : 4743.000000 , 
+"9120" : 5977.000000 , 
+"9152" : 5346.000000 , 
+"9184" : 4954.000000 , 
+"9216" : 4582.000000 , 
+"9248" : 4226.000000 , 
+"9280" : 4623.000000 , 
+"9312" : 3265.000000 , 
+"9344" : 3363.000000 , 
+"9376" : 7489.000000 , 
+"9408" : 7773.000000 , 
+"9440" : 8878.000000 , 
+"9472" : 10777.000000 , 
+"9504" : 4881.000000 , 
+"9536" : 4502.000000 , 
+"9568" : 4047.000000 , 
+"9600" : 3174.000000 , 
+"9632" : 5740.000000 , 
+"9664" : 7304.000000 , 
+"9696" : 7074.000000 , 
+"9728" : 9602.000000 , 
+"9760" : 7228.000000 , 
+"9792" : 5998.000000 , 
+"9824" : 6247.000000 , 
+"9856" : 6061.000000 , 
+"9888" : 6723.000000 , 
+"9920" : 6716.000000 , 
+"9952" : 6147.000000 , 
+"9984" : 6110.000000 , 
+"10016" : 4863.000000 , 
+"10048" : 4379.000000 , 
+"10080" : 4490.000000 , 
+"10112" : 4683.000000 , 
+"10144" : 5259.000000 , 
+"10176" : 5276.000000 , 
+"10208" : 5039.000000 , 
+"10240" : 4883.000000 , 
+"10272" : 5264.000000 , 
+"10304" : 6764.000000 , 
+"10336" : 6248.000000 , 
+"10368" : 6788.000000 , 
+"10400" : 4642.000000 , 
+"10432" : 3587.000000 , 
+"10464" : 3282.000000 , 
+"10496" : 3541.000000 , 
+"10528" : 3490.000000 , 
+"10560" : 3821.000000 , 
+"10592" : 4656.000000 , 
+"10624" : 4388.000000 , 
+"10656" : 5258.000000 , 
+"10688" : 6189.000000 , 
+"10720" : 7613.000000 , 
+"10752" : 8689.000000 , 
+"10784" : 3562.000000 , 
+"10816" : 4289.000000 , 
+"10848" : 4055.000000 , 
+"10880" : 4442.000000 , 
+"10912" : 3926.000000 , 
+"10944" : 4383.000000 , 
+"10976" : 3926.000000 , 
+"11008" : 4555.000000 , 
+"11040" : 5723.000000 , 
+"11072" : 8135.000000 , 
+"11104" : 8780.000000 , 
+"11136" : 10516.000000 , 
+"11168" : 6361.000000 , 
+"11200" : 5338.000000 , 
+"11232" : 5448.000000 , 
+"11264" : 3851.000000 , 
+"11296" : 3326.000000 , 
+"11328" : 3894.000000 , 
+"11360" : 2533.000000 , 
+"11392" : 2791.000000 , 
+"11424" : 3110.000000 , 
+"11456" : 3874.000000 , 
+"11488" : 3698.000000 , 
+"11520" : 3623.000000 , 
+"11552" : 4957.000000 , 
+"11584" : 4431.000000 , 
+"11616" : 4752.000000 , 
+"11648" : 5730.000000 , 
+"11680" : 6498.000000 , 
+"11712" : 5879.000000 , 
+"11744" : 5802.000000 , 
+"11776" : 8911.000000 , 
+"11808" : 6871.000000 , 
+"11840" : 5885.000000 , 
+"11872" : 5338.000000 , 
+"11904" : 6283.000000 , 
+"11936" : 4876.000000 , 
+"11968" : 3639.000000 , 
+"12000" : 3865.000000 , 
+"12032" : 3347.000000 , 
+"12064" : 2717.000000 , 
+"12096" : 2673.000000 , 
+"12128" : 2174.000000 , 
+"12160" : 2372.000000 , 
+"12192" : 1910.000000 , 
+"12224" : 1832.000000 , 
+"12256" : 1477.000000 , 
+"12288" : 1568.000000 , 
+"12320" : 1693.000000 , 
+"12352" : 1663.000000 , 
+"12384" : 2098.000000 , 
+"12416" : 2253.000000 , 
+"12448" : 2098.000000 , 
+"12480" : 2154.000000 , 
+"12512" : 2402.000000 , 
+"12544" : 2086.000000 , 
+"12576" : 2736.000000 , 
+"12608" : 3320.000000 , 
+"12640" : 3483.000000 , 
+"12672" : 3995.000000 , 
+"12704" : 2448.000000 , 
+"12736" : 1927.000000 , 
+"12768" : 1812.000000 , 
+"12800" : 1570.000000 , 
+"12832" : 2085.000000 , 
+"12864" : 1935.000000 , 
+"12896" : 2572.000000 , 
+"12928" : 2837.000000 , 
+"12960" : 1993.000000 , 
+"12992" : 1849.000000 , 
+"13024" : 1310.000000 , 
+"13056" : 1793.000000 , 
+"13088" : 2725.000000 , 
+"13120" : 3855.000000 , 
+"13152" : 3919.000000 , 
+"13184" : 4514.000000 , 
+"13216" : 3217.000000 , 
+"13248" : 2444.000000 , 
+"13280" : 2934.000000 , 
+"13312" : 3209.000000 , 
+"13344" : 2114.000000 , 
+"13376" : 1998.000000 , 
+"13408" : 1784.000000 , 
+"13440" : 1658.000000 , 
+"13472" : 1647.000000 , 
+"13504" : 1485.000000 , 
+"13536" : 1414.000000 , 
+"13568" : 1606.000000 , 
+"13600" : 1542.000000 , 
+"13632" : 1604.000000 , 
+"13664" : 1752.000000 , 
+"13696" : 1608.000000 , 
+"13728" : 1715.000000 , 
+"13760" : 1626.000000 , 
+"13792" : 1940.000000 , 
+"13824" : 2094.000000 , 
+"13856" : 1532.000000 , 
+"13888" : 1304.000000 , 
+"13920" : 1725.000000 , 
+"13952" : 1252.000000 , 
+"13984" : 1626.000000 , 
+"14016" : 2018.000000 , 
+"14048" : 2472.000000 , 
+"14080" : 2877.000000 , 
+"14112" : 2404.000000 , 
+"14144" : 2394.000000 , 
+"14176" : 2449.000000 , 
+"14208" : 2544.000000 , 
+"14240" : 3025.000000 , 
+"14272" : 3883.000000 , 
+"14304" : 3173.000000 , 
+"14336" : 4080.000000 , 
+"14368" : 2120.000000 , 
+"14400" : 1505.000000 , 
+"14432" : 1895.000000 , 
+"14464" : 1549.000000 , 
+"14496" : 1246.000000 , 
+"14528" : 1214.000000 , 
+"14560" : 1193.000000 , 
+"14592" : 1563.000000 , 
+"14624" : 951.000000 , 
+"14656" : 924.000000 , 
+"14688" : 836.000000 , 
+"14720" : 737.000000 , 
+"14752" : 827.000000 , 
+"14784" : 1145.000000 , 
+"14816" : 1270.000000 , 
+"14848" : 1442.000000 , 
+"14880" : 1019.000000 , 
+"14912" : 1026.000000 , 
+"14944" : 962.000000 , 
+"14976" : 1161.000000 , 
+"15008" : 900.000000 , 
+"15040" : 1027.000000 , 
+"15072" : 988.000000 , 
+"15104" : 1056.000000 , 
+"15136" : 931.000000 , 
+"15168" : 1156.000000 , 
+"15200" : 1096.000000 , 
+"15232" : 1023.000000 , 
+"15264" : 1097.000000 , 
+"15296" : 1202.000000 , 
+"15328" : 1140.000000 , 
+"15360" : 1396.000000 , 
+"15392" : 895.000000 , 
+"15424" : 765.000000 , 
+"15456" : 665.000000 , 
+"15488" : 600.000000 , 
+"15520" : 518.000000 , 
+"15552" : 457.000000 , 
+"15584" : 406.000000 , 
+"15616" : 311.000000 , 
+"15648" : 635.000000 , 
+"15680" : 1176.000000 , 
+"15712" : 1219.000000 , 
+"15744" : 1310.000000 , 
+"15776" : 1382.000000 , 
+"15808" : 1439.000000 , 
+"15840" : 1160.000000 , 
+"15872" : 1389.000000 , 
+"15904" : 1648.000000 , 
+"15936" : 2045.000000 , 
+"15968" : 2101.000000 , 
+"16000" : 2402.000000 , 
+"16032" : 2563.000000 , 
+"16064" : 2791.000000 , 
+"16096" : 2851.000000 , 
+"16128" : 2881.000000 , 
+"16160" : 1790.000000 , 
+"16192" : 1342.000000 , 
+"16224" : 1080.000000 , 
+"16256" : 1332.000000 , 
+"16288" : 1417.000000 , 
+"16320" : 1098.000000 , 
+"16352" : 1040.000000 , 
+"16384" : 2790845.000000 , 

@@ -1,0 +1,3 @@
+dataset_path: /data/dataset/XUltra/msmacro_base-001.bin
+learning_path: /data/dataset/XUltra/XUltra_train.fvecs
+sampling: 10000

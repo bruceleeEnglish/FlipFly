@@ -1,0 +1,5 @@
+Reading XUltra from /data/dataset/XUltra/msmacro_base-001.bin.
+Randomizing XUltra of dimensionality 12288.
+Writing File - /data/dataset/XUltra/adsampling/O.fvecs
+Writing File - /data/dataset/XUltra/OXUltra_base.fvecs
+Elapsed time: 464669.81 ms

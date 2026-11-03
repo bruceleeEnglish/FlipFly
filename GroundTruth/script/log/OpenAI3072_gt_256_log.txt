@@ -1,0 +1,9 @@
+K: 256
+dataset_path: /data/dataset/OpenAI3072/openai3072_base.bin
+query_path: /data/dataset/OpenAI3072/query.bin
+ground_truth_path: /data/dataset/OpenAI3072/gt_256.ivecs
+metric: 0
+dataset size: 999900
+query size: 100
+dim: 3072
+generate ground truth time: 339630

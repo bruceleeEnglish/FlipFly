@@ -1,0 +1,3 @@
+dataset_path: /data/dataset/trevi/trevi_base.fvecs
+learning_path: /data/dataset/trevi/trevi_train.fvecs
+sampling: 10000

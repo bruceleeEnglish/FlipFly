@@ -1,0 +1,270 @@
+=== Per (dataset, K): smallest ef with recall >= 0.95; latency = search + rotation/query [ms]; QPS = 1000/mean ===
+
+[OpenAI3072  K=20  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9790      3.227      0.582    0.000     309.9
+PDScanning      100   0.9790      2.212      0.433    0.000     452.1
+PDScanning+     100   0.9790      3.620      0.326    1.941     276.3
+ADSampling      100   0.9790      3.940      0.521    2.028     253.8
+DADE            100   0.9790      3.591      0.337    2.182     278.5
+DDCres          100   0.9700      3.820      0.269    2.544     261.7
+SRHT-AD         100   0.9790      1.886      0.418    0.016     530.1
+SRHT-DA         100   0.9790      1.680      0.337    0.020     595.3
+   speedup SRHT-AD / ADSampling   = 2.09x   bootstrap 95% CI [1.99, 2.20]
+   speedup SRHT-DA / DDCres       = 2.27x   bootstrap 95% CI [2.19, 2.37]
+   speedup SRHT-DA / SRHT-AD      = 1.12x   bootstrap 95% CI [1.06, 1.19]
+   speedup SRHT-AD / DDCres       = 2.03x   bootstrap 95% CI [1.94, 2.12]
+   speedup SRHT-DA / ADSampling   = 2.35x   bootstrap 95% CI [2.24, 2.46]
+
+[OpenAI3072  K=40  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9675      3.419      0.555    0.000     292.5
+PDScanning      100   0.9675      3.089      0.660    0.000     323.7
+PDScanning+     100   0.9675      4.033      0.413    2.153     248.0
+ADSampling      100   0.9683      4.521      0.471    2.670     221.2
+DADE            100   0.9675      3.903      0.346    2.342     256.2
+DDCres          100   0.9505      3.487      0.283    2.164     286.8
+SRHT-AD         100   0.9675      2.059      0.463    0.016     485.7
+SRHT-DA         100   0.9673      1.799      0.402    0.018     555.7
+   speedup SRHT-AD / ADSampling   = 2.20x   bootstrap 95% CI [2.09, 2.30]
+   speedup SRHT-DA / DDCres       = 1.94x   bootstrap 95% CI [1.85, 2.03]
+   speedup SRHT-DA / SRHT-AD      = 1.14x   bootstrap 95% CI [1.08, 1.22]
+   speedup SRHT-AD / DDCres       = 1.69x   bootstrap 95% CI [1.61, 1.77]
+   speedup SRHT-DA / ADSampling   = 2.51x   bootstrap 95% CI [2.40, 2.64]
+
+[OpenAI3072  K=60  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9587      3.703      0.782    0.000     270.1
+PDScanning      100   0.9587      3.353      0.793    0.000     298.2
+PDScanning+     100   0.9587      4.681      0.406    2.653     213.6
+ADSampling      100   0.9592      4.525      0.452    2.547     221.0
+DADE            100   0.9587      4.221      0.464    2.591     236.9
+DDCres          200   0.9827      4.479      0.395    2.643     223.3
+SRHT-AD         100   0.9588      2.041      0.558    0.015     490.0
+SRHT-DA         100   0.9578      1.921      0.408    0.017     520.6
+   speedup SRHT-AD / ADSampling   = 2.22x   bootstrap 95% CI [2.08, 2.34]
+   speedup SRHT-DA / DDCres       = 2.33x   bootstrap 95% CI [2.23, 2.44]
+   speedup SRHT-DA / SRHT-AD      = 1.06x   bootstrap 95% CI [0.99, 1.14]
+   speedup SRHT-AD / DDCres       = 2.19x   bootstrap 95% CI [2.08, 2.31]
+   speedup SRHT-DA / ADSampling   = 2.36x   bootstrap 95% CI [2.26, 2.47]
+
+[OpenAI3072  K=100  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9779      3.615      0.620    0.000     276.7
+PDScanning      200   0.9779      3.236      0.596    0.000     309.0
+PDScanning+     200   0.9779      4.893      0.471    2.500     204.4
+ADSampling      200   0.9777      4.863      0.619    1.927     205.6
+DADE            200   0.9779      4.228      0.416    2.150     236.5
+DDCres          200   0.9717      4.326      0.434    2.343     231.2
+SRHT-AD         200   0.9778      2.789      0.623    0.016     358.5
+SRHT-DA         200   0.9761      2.583      0.536    0.020     387.1
+   speedup SRHT-AD / ADSampling   = 1.74x   bootstrap 95% CI [1.66, 1.84]
+   speedup SRHT-DA / DDCres       = 1.67x   bootstrap 95% CI [1.60, 1.76]
+   speedup SRHT-DA / SRHT-AD      = 1.08x   bootstrap 95% CI [1.02, 1.15]
+   speedup SRHT-AD / DDCres       = 1.55x   bootstrap 95% CI [1.48, 1.63]
+   speedup SRHT-DA / ADSampling   = 1.88x   bootstrap 95% CI [1.80, 1.98]
+
+[XUltra  K=20  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9845      7.662      1.776    0.000     130.5
+PDScanning      100   0.9845      7.849      2.419    0.000     127.4
+PDScanning+     100   0.9845     58.941      1.127   52.373      17.0
+ADSampling      100   0.9835     56.940      1.075   52.529      17.6
+DADE            100   0.9845     57.568      1.455   52.170      17.4
+DDCres          100   0.9845     59.484      0.743   56.112      16.8
+SRHT-AD         100   0.9815      6.649      1.682    0.067     150.4
+SRHT-DA         100   0.9825      5.854      1.256    0.075     170.8
+   speedup SRHT-AD / ADSampling   = 8.56x   bootstrap 95% CI [8.15, 9.00]
+   speedup SRHT-DA / DDCres       = 10.16x   bootstrap 95% CI [9.75, 10.60]
+   speedup SRHT-DA / SRHT-AD      = 1.14x   bootstrap 95% CI [1.06, 1.21]
+   speedup SRHT-AD / DDCres       = 8.95x   bootstrap 95% CI [8.52, 9.40]
+   speedup SRHT-DA / ADSampling   = 9.73x   bootstrap 95% CI [9.30, 10.13]
+
+[XUltra  K=40  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9698      7.961      1.611    0.000     125.6
+PDScanning      100   0.9698      8.012      1.778    0.000     124.8
+PDScanning+     100   0.9698     59.732      1.607   52.793      16.7
+ADSampling      100   0.9683     57.707      1.516   53.244      17.3
+DADE            100   0.9698     59.737      1.622   54.026      16.7
+DDCres          100   0.9698     54.418      0.539   51.784      18.4
+SRHT-AD         100   0.9655      7.181      1.795    0.064     139.3
+SRHT-DA         100   0.9630      6.489      1.608    0.074     154.1
+   speedup SRHT-AD / ADSampling   = 8.04x   bootstrap 95% CI [7.63, 8.43]
+   speedup SRHT-DA / DDCres       = 8.39x   bootstrap 95% CI [7.99, 8.79]
+   speedup SRHT-DA / SRHT-AD      = 1.11x   bootstrap 95% CI [1.04, 1.18]
+   speedup SRHT-AD / DDCres       = 7.58x   bootstrap 95% CI [7.22, 7.94]
+   speedup SRHT-DA / ADSampling   = 8.89x   bootstrap 95% CI [8.47, 9.33]
+
+[XUltra  K=60  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9573      8.608      1.941    0.000     116.2
+PDScanning      100   0.9573      8.805      2.185    0.000     113.6
+PDScanning+     100   0.9572     61.419      2.074   53.752      16.3
+ADSampling      100   0.9558     58.504      1.989   53.498      17.1
+DADE            100   0.9572     58.211      1.789   52.179      17.2
+DDCres          100   0.9573     54.757      0.630   51.818      18.3
+SRHT-AD         100   0.9515      7.709      1.979    0.065     129.7
+SRHT-DA         200   0.9845      6.903      1.638    0.074     144.9
+   speedup SRHT-AD / ADSampling   = 7.59x   bootstrap 95% CI [7.22, 7.99]
+   speedup SRHT-DA / DDCres       = 7.93x   bootstrap 95% CI [7.56, 8.29]
+   speedup SRHT-DA / SRHT-AD      = 1.12x   bootstrap 95% CI [1.04, 1.20]
+   speedup SRHT-AD / DDCres       = 7.10x   bootstrap 95% CI [6.77, 7.47]
+   speedup SRHT-DA / ADSampling   = 8.47x   bootstrap 95% CI [8.08, 8.87]
+
+[XUltra  K=100  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9799     11.712      2.215    0.000      85.4
+PDScanning      200   0.9799     11.356      2.364    0.000      88.1
+PDScanning+     200   0.9799     62.192      2.067   52.106      16.1
+ADSampling      200   0.9785     58.958      1.902   51.899      17.0
+DADE            200   0.9799     61.725      2.086   53.095      16.2
+DDCres          200   0.9799     55.573      0.807   51.861      18.0
+SRHT-AD         200   0.9767      7.756      2.064    0.069     128.9
+SRHT-DA         200   0.9718      7.079      1.581    0.075     141.3
+   speedup SRHT-AD / ADSampling   = 7.60x   bootstrap 95% CI [7.20, 8.01]
+   speedup SRHT-DA / DDCres       = 7.85x   bootstrap 95% CI [7.53, 8.20]
+   speedup SRHT-DA / SRHT-AD      = 1.10x   bootstrap 95% CI [1.02, 1.17]
+   speedup SRHT-AD / DDCres       = 7.16x   bootstrap 95% CI [6.80, 7.55]
+   speedup SRHT-DA / ADSampling   = 8.33x   bootstrap 95% CI [7.98, 8.69]
+
+[arxiv-for-fanns-large  K=20  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9735      4.863      0.425    0.000     205.6
+PDScanning      200   0.9735      4.256      0.874    0.000     235.0
+PDScanning+     200   0.9735      7.257      1.389    5.022     137.8
+ADSampling      200   0.9735      8.477      0.399    5.493     118.0
+DADE            200   0.9735      7.376      0.260    4.939     135.6
+DDCres          600   0.9585     11.215      0.906    5.220      89.2
+SRHT-AD         200   0.9735      2.909      0.362    0.018     343.7
+SRHT-DA         200   0.9730      2.564      0.569    0.027     389.9
+   speedup SRHT-AD / ADSampling   = 2.91x   bootstrap 95% CI [2.84, 2.99]
+   speedup SRHT-DA / DDCres       = 4.37x   bootstrap 95% CI [4.16, 4.56]
+   speedup SRHT-DA / SRHT-AD      = 1.13x   bootstrap 95% CI [1.08, 1.19]
+   speedup SRHT-AD / DDCres       = 3.85x   bootstrap 95% CI [3.75, 3.97]
+   speedup SRHT-DA / ADSampling   = 3.31x   bootstrap 95% CI [3.16, 3.44]
+
+[arxiv-for-fanns-large  K=40  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9667      6.430      0.495    0.000     155.5
+PDScanning      200   0.9667      6.784      0.670    0.000     147.4
+PDScanning+     200   0.9667      7.823      0.297    4.751     127.8
+ADSampling      200   0.9667     10.594      0.544    6.418      94.4
+DADE            200   0.9667      8.894      0.305    5.760     112.4
+DDCres          700   0.9573     12.368      1.201    4.827      80.9
+SRHT-AD         200   0.9665      4.198      0.576    0.017     238.2
+SRHT-DA         200   0.9643      3.476      0.450    0.039     287.7
+   speedup SRHT-AD / ADSampling   = 2.52x   bootstrap 95% CI [2.45, 2.60]
+   speedup SRHT-DA / DDCres       = 3.56x   bootstrap 95% CI [3.45, 3.68]
+   speedup SRHT-DA / SRHT-AD      = 1.21x   bootstrap 95% CI [1.17, 1.25]
+   speedup SRHT-AD / DDCres       = 2.95x   bootstrap 95% CI [2.85, 3.05]
+   speedup SRHT-DA / ADSampling   = 3.05x   bootstrap 95% CI [2.97, 3.13]
+
+[arxiv-for-fanns-large  K=50  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9634      7.407      0.717    0.000     135.0
+PDScanning      200   0.9634      7.117      0.758    0.000     140.5
+PDScanning+     200   0.9634      9.060      0.554    5.215     110.4
+ADSampling      200   0.9634      9.095      0.566    4.742     109.9
+DADE            200   0.9634      8.277      0.314    4.916     120.8
+
+[arxiv-for-fanns-large  K=60  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9607      8.810      1.413    0.000     113.5
+PDScanning      200   0.9607      7.159      0.786    0.000     139.7
+PDScanning+     200   0.9607      8.426      0.360    4.824     118.7
+ADSampling      200   0.9607     11.854      0.778    6.722      84.4
+DADE            200   0.9607      8.752      0.436    4.720     114.3
+DDCres          800   0.9588     15.214      1.381    6.404      65.7
+SRHT-AD         200   0.9608      4.307      0.504    0.018     232.2
+SRHT-DA         200   0.9570      3.901      0.546    0.019     256.4
+   speedup SRHT-AD / ADSampling   = 2.75x   bootstrap 95% CI [2.68, 2.83]
+   speedup SRHT-DA / DDCres       = 3.90x   bootstrap 95% CI [3.77, 4.03]
+   speedup SRHT-DA / SRHT-AD      = 1.10x   bootstrap 95% CI [1.07, 1.14]
+   speedup SRHT-AD / DDCres       = 3.53x   bootstrap 95% CI [3.43, 3.63]
+   speedup SRHT-DA / ADSampling   = 3.04x   bootstrap 95% CI [2.95, 3.14]
+
+[arxiv-for-fanns-large  K=100  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      300   0.9641      8.668      0.701    0.000     115.4
+PDScanning      300   0.9641      8.584      0.718    0.000     116.5
+PDScanning+     300   0.9641     10.740      0.500    6.180      93.1
+ADSampling      300   0.9641     10.478      0.742    4.608      95.4
+DADE            300   0.9641     10.137      0.403    5.610      98.6
+DDCres          900   0.9502     14.512      1.379    4.924      68.9
+SRHT-AD         300   0.9640      6.519      0.899    0.017     153.4
+SRHT-DA         300   0.9577      5.013      0.636    0.020     199.5
+   speedup SRHT-AD / ADSampling   = 1.61x   bootstrap 95% CI [1.56, 1.65]
+   speedup SRHT-DA / DDCres       = 2.89x   bootstrap 95% CI [2.81, 2.98]
+   speedup SRHT-DA / SRHT-AD      = 1.30x   bootstrap 95% CI [1.25, 1.35]
+   speedup SRHT-AD / DDCres       = 2.23x   bootstrap 95% CI [2.15, 2.30]
+   speedup SRHT-DA / ADSampling   = 2.09x   bootstrap 95% CI [2.03, 2.15]
+
+[trevi  K=20  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9725      2.446      0.364    0.000     408.8
+PDScanning      100   0.9725      2.129      0.301    0.000     469.8
+PDScanning+     100   0.9725      5.574      0.215    4.716     179.4
+ADSampling      100   0.9725      6.059      0.803    4.681     165.1
+DADE            100   0.9725      5.771      0.207    4.821     173.3
+DDCres          100   0.9710      5.488      0.760    4.582     182.2
+SRHT-AD         100   0.9725      1.248      0.188    0.016     801.4
+SRHT-DA         200   0.9675      1.610      0.227    0.019     621.2
+   speedup SRHT-AD / ADSampling   = 4.86x   bootstrap 95% CI [4.68, 5.06]
+   speedup SRHT-DA / DDCres       = 3.41x   bootstrap 95% CI [3.29, 3.56]
+   speedup SRHT-DA / SRHT-AD      = 0.78x   bootstrap 95% CI [0.75, 0.81]
+   speedup SRHT-AD / DDCres       = 4.40x   bootstrap 95% CI [4.24, 4.59]
+   speedup SRHT-DA / ADSampling   = 3.76x   bootstrap 95% CI [3.63, 3.91]
+
+[trevi  K=40  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9665      2.577      0.389    0.000     388.0
+PDScanning      100   0.9665      2.014      0.281    0.000     496.5
+PDScanning+     100   0.9665      5.694      0.088    4.883     175.6
+ADSampling      100   0.9665      5.941      0.188    4.756     168.3
+DADE            100   0.9665      6.052      0.109    5.147     165.2
+DDCres          100   0.9655      5.628      0.076    4.838     177.7
+SRHT-AD         100   0.9665      1.184      0.177    0.015     844.7
+SRHT-DA         200   0.9617      1.773      0.248    0.018     564.1
+   speedup SRHT-AD / ADSampling   = 5.02x   bootstrap 95% CI [4.87, 5.17]
+   speedup SRHT-DA / DDCres       = 3.17x   bootstrap 95% CI [3.09, 3.26]
+   speedup SRHT-DA / SRHT-AD      = 0.67x   bootstrap 95% CI [0.64, 0.70]
+   speedup SRHT-AD / DDCres       = 4.75x   bootstrap 95% CI [4.61, 4.89]
+   speedup SRHT-DA / ADSampling   = 3.35x   bootstrap 95% CI [3.26, 3.45]
+
+[trevi  K=60  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      100   0.9563      2.616      0.381    0.000     382.3
+PDScanning      100   0.9563      2.229      0.309    0.000     448.5
+PDScanning+     100   0.9563      5.739      0.107    4.803     174.2
+ADSampling      100   0.9563      7.059      0.209    5.741     141.7
+DADE            100   0.9563      5.949      0.206    4.762     168.1
+DDCres          100   0.9555      5.820      0.087    4.918     171.8
+SRHT-AD         100   0.9563      1.345      0.202    0.016     743.4
+SRHT-DA         200   0.9513      1.932      0.278    0.018     517.5
+   speedup SRHT-AD / ADSampling   = 5.25x   bootstrap 95% CI [5.09, 5.42]
+   speedup SRHT-DA / DDCres       = 3.01x   bootstrap 95% CI [2.93, 3.11]
+   speedup SRHT-DA / SRHT-AD      = 0.70x   bootstrap 95% CI [0.67, 0.72]
+   speedup SRHT-AD / DDCres       = 4.33x   bootstrap 95% CI [4.21, 4.46]
+   speedup SRHT-DA / ADSampling   = 3.65x   bootstrap 95% CI [3.56, 3.77]
+
+[trevi  K=100  n_queries=100]
+operator         ef   recall    mean_ms     std_ms   rot_ms       QPS 
+FDScanning      200   0.9745      3.394      0.706    0.000     294.7
+PDScanning      200   0.9745      3.046      0.622    0.000     328.3
+PDScanning+     200   0.9745      6.750      0.418    5.534     148.1
+ADSampling      200   0.9744      6.476      0.450    4.636     154.4
+DADE            200   0.9745      5.918      0.390    4.617     169.0
+DDCres          200   0.9743      5.991      0.287    4.810     166.9
+SRHT-AD         200   0.9746      1.734      0.255    0.016     576.6
+SRHT-DA         300   0.9549      2.628      0.372    0.018     380.5
+   speedup SRHT-AD / ADSampling   = 3.73x   bootstrap 95% CI [3.62, 3.86]
+   speedup SRHT-DA / DDCres       = 2.28x   bootstrap 95% CI [2.22, 2.35]
+   speedup SRHT-DA / SRHT-AD      = 0.66x   bootstrap 95% CI [0.63, 0.69]
+   speedup SRHT-AD / DDCres       = 3.45x   bootstrap 95% CI [3.35, 3.56]
+   speedup SRHT-DA / ADSampling   = 2.46x   bootstrap 95% CI [2.39, 2.54]
+
+=== Geometric-mean speedups over datasets (K=100) ===
+SRHT-AD / ADSampling   geo-mean = 2.99x over 4 datasets  (per-dataset: 1.74, 7.60, 1.61, 3.73)
+SRHT-DA / DDCres       geo-mean = 3.05x over 4 datasets  (per-dataset: 1.67, 7.85, 2.89, 2.28)
+SRHT-DA / SRHT-AD      geo-mean = 1.00x over 4 datasets  (per-dataset: 1.08, 1.10, 1.30, 0.66)

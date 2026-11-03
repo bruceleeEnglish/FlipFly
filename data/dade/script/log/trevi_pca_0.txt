@@ -1,0 +1,7 @@
+Reading trevi from /data/dataset/trevi/base.fvecs.
+Randomizing trevi of dimensionality 4096.
+PCA - 4096 x 99900
+Writing File - /data/dataset/trevi/dade/P.fvecs
+Writing File - /data/dataset/trevi/dade/LMD.fvecs
+Writing File - /data/dataset/trevi/Ptrevi_base.fvecs
+Elapsed time: 120431.55 ms

@@ -1,0 +1,9 @@
+K: 256
+dataset_path: /data/dataset/trevi/base.fvecs
+query_path: /data/dataset/trevi/query.fvecs
+ground_truth_path: /data/dataset/trevi/gt_256.ivecs
+metric: 0
+dataset size: 99900
+query size: 100
+dim: 4096
+generate ground truth time: 43632

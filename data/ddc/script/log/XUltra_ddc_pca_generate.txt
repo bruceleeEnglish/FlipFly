@@ -1,0 +1,9 @@
+PCA - XUltra
+PCA - msmacro_base-001.bin
+PCA - /data/dataset/XUltra/XUltra_train_ground_truth.ivecs
+PCA - 100000 vectors, 12288 dimensions
+PCA - fitting on all 100000 vectors
+PCA - Calculating covariance matrix...
+PCA - Performing eigendecomposition...
+PCA - finished
+Elapsed time: 1772079.32 ms

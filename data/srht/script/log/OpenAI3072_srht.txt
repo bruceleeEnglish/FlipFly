@@ -1,0 +1,16 @@
+/data/dco-benchmark/data/srht/randomized.py:56: RuntimeWarning: overflow encountered in scalar multiply
+  arr = np.fromfile(f, count=nvecs * dim, dtype=np.float32,
+Reading OpenAI3072 from /data/dataset/OpenAI3072/openai3072_base.bin.
+Padding from D_in=3072 to next power of 2 D=4096
+Applying SRHT with D=4096 on 999900 vectors.
+Traceback (most recent call last):
+  File "/data/dco-benchmark/data/srht/randomized.py", line 147, in <module>
+    XS = apply_srht(X, rad)
+         ^^^^^^^^^^^^^^^^^^
+  File "/data/dco-benchmark/data/srht/randomized.py", line 106, in apply_srht
+    Y = fwht_inplace(Y)                 # H * (...)
+        ^^^^^^^^^^^^^^^
+  File "/data/dco-benchmark/data/srht/randomized.py", line 86, in fwht_inplace
+    X = np.ascontiguousarray(X, dtype=np.float32).copy()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

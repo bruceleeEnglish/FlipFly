@@ -1,0 +1,7 @@
+dataset_path: /data/dataset/XUltra/OXUltra_base.fvecs
+index_path: /data/dataset/XUltra/hnsw_OXUltra_M16_efConstruction500_operator0.index
+M: 16
+efConstruction: 500
+operator: 0
+Using FDScanning
+Processing - 0 / 100000

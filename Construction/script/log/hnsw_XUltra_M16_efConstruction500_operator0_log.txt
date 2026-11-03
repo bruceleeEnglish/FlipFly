@@ -1,0 +1,9 @@
+dataset_path: /data/dataset/XUltra/msmacro_base-001.bin
+index_path: /data/dataset/XUltra/hnsw_XUltra_M16_efConstruction500_operator0.index
+M: 16
+efConstruction: 500
+operator: 0
+Using FDScanning
+Processing - 0 / 100000
+Processing - 50000 / 100000
+build index: 3.56212e+06 [ms] 

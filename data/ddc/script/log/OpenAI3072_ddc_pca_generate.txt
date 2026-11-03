@@ -1,0 +1,11 @@
+/data/dco-benchmark/data/ddc/utils.py:18: RuntimeWarning: overflow encountered in scalar multiply
+  arr = np.fromfile(f, count=nvecs * dim, dtype=np.float32,
+PCA - OpenAI3072
+PCA - openai3072_base.bin
+PCA - /data/dataset/OpenAI3072/OpenAI3072_train_ground_truth.ivecs
+PCA - 999900 vectors, 3072 dimensions
+PCA - fitting on all 999900 vectors
+PCA - Calculating covariance matrix...
+PCA - Performing eigendecomposition...
+PCA - finished
+Elapsed time: 250327.74 ms

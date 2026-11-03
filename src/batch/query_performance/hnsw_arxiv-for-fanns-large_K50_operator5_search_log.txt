@@ -1,0 +1,8 @@
+K: 50
+dataset_path: /data/dataset/arxiv-for-fanns-large/Larxiv-for-fanns-large_base.fvecs
+query_path: /data/dataset/arxiv-for-fanns-large/query.fvecs
+ground_truth_path: /data/dataset/arxiv-for-fanns-large/gt_256.ivecs
+index_path: /data/dataset/arxiv-for-fanns-large/hnsw_Larxiv-for-fanns-large_M16_efConstruction500_operator0.index
+operator: 5
+Using DDCres
+Failed to open file for reading vector data: /data/dataset/arxiv-for-fanns-large/ddc/pca_matrix_50.fvecs

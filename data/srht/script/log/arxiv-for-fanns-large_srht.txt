@@ -1,0 +1,12 @@
+Reading arxiv-for-fanns-large from /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_base.fvecs.
+Traceback (most recent call last):
+  File "/data/dco-benchmark/data/srht/randomized.py", line 134, in <module>
+    X = read_vector_file(data_path)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/dco-benchmark/data/srht/randomized.py", line 32, in read_vector_file
+    return read_fvecs(filename)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/dco-benchmark/data/srht/randomized.py", line 38, in read_fvecs
+    fv = np.fromfile(filename, dtype=np.float32)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

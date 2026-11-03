@@ -1,0 +1,7 @@
+setting: d = 4096, Delta = 32, eps0 = 2.1, 120 residuals x 240 sign draws per family
+a candidate is a true neighbour at squared distance 0.90 * tau
+
+family       var/Haar l=32 var/Haar l=64 var/Haar l=128 var/Haar l=512 theta l=32 pruned SRHT pruned Haar
+generic            1.00       1.00       1.00       1.00       0.00      0.001      0.001
+column            30.79      62.08      62.38      62.70      21.06      0.622      0.000
+column+perm        0.98       0.96       0.96       0.91       0.00      0.001      0.000

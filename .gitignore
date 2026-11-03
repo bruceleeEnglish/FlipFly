@@ -1,0 +1,12 @@
+# build outputs
+build/
+tmp/
+third_party/
+__pycache__/
+*.pyc
+
+# datasets and indexes (about 1 TB, not shipped)
+*.fvecs
+*.ivecs
+*.bin
+*.index

@@ -1,0 +1,26 @@
+K: 100
+dataset_path: /data/dataset/OpenAI3072/openai3072_base.bin
+learning_path: /data/dataset/OpenAI3072/OpenAI3072_train.fvecs
+ground_truth_path: /data/dataset/OpenAI3072/OpenAI3072_train_ground_truth.ivecs
+size: -1
+metric: 0
+Processed 0 points.
+Processed 500 points.
+Processed 1000 points.
+Processed 1500 points.
+Processed 2000 points.
+Processed 2500 points.
+Processed 3000 points.
+Processed 3500 points.
+Processed 4000 points.
+Processed 4500 points.
+Processed 5000 points.
+Processed 5500 points.
+Processed 6000 points.
+Processed 6500 points.
+Processed 7000 points.
+Processed 7500 points.
+Processed 8000 points.
+Processed 8500 points.
+Processed 9000 points.
+Processed 9500 points.

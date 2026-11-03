@@ -1,0 +1,27 @@
+dataset_path: /data/dataset/OpenAI3072/TOpenAI3072_base.fvecs
+index_path: /data/dataset/OpenAI3072/hnsw_TOpenAI3072_M16_efConstruction500_operator20.index
+M: 16
+efConstruction: 500
+operator: 20
+Using SRHTPCAADSampling
+Processing - 0 / 999900
+Processing - 50000 / 999900
+Processing - 100000 / 999900
+Processing - 150000 / 999900
+Processing - 200000 / 999900
+Processing - 250000 / 999900
+Processing - 300000 / 999900
+Processing - 350000 / 999900
+Processing - 400000 / 999900
+Processing - 450000 / 999900
+Processing - 500000 / 999900
+Processing - 550000 / 999900
+Processing - 600000 / 999900
+Processing - 650000 / 999900
+Processing - 700000 / 999900
+Processing - 750000 / 999900
+Processing - 800000 / 999900
+Processing - 850000 / 999900
+Processing - 900000 / 999900
+Processing - 950000 / 999900
+build index: 8.91539e+06 [ms] 

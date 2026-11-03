@@ -1,0 +1,11 @@
+/data/dco-benchmark/data/srht_pca/randomized.py:47: RuntimeWarning: overflow encountered in scalar multiply
+  arr = np.fromfile(f, count=nvecs * dim, dtype=np.float32,
+Reading /data/dataset/OpenAI3072/openai3072_base.bin
+Padding D=3072 -> D=4096
+Applying SRHT (D=4096, N=999900)
+  done in 1224.2s
+Computing per-dim variance + permutation by sigma_i^2 desc...
+  post-SRHT var max/min = 2.70
+Writing /data/dataset/OpenAI3072/srht_pca/S.fvecs
+Writing /data/dataset/OpenAI3072/TOpenAI3072_base.fvecs
+done.

@@ -1,0 +1,9 @@
+K: 256
+dataset_path: /data/dataset/XUltra/msmacro_base-001.bin
+query_path: /data/dataset/XUltra/query.bin
+ground_truth_path: /data/dataset/XUltra/gt_256.ivecs
+metric: 0
+dataset size: 100000
+query size: 100
+dim: 12288
+generate ground truth time: 136784

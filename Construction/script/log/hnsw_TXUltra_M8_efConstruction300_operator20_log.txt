@@ -1,0 +1,9 @@
+dataset_path: /data/dataset/XUltra/TXUltra_base.fvecs
+index_path: /data/dataset/XUltra/hnsw_TXUltra_M8_efConstruction300_operator20.index
+M: 8
+efConstruction: 300
+operator: 20
+Using SRHTPCAADSampling
+Processing - 0 / 100000
+Processing - 50000 / 100000
+build index: 969561 [ms] 

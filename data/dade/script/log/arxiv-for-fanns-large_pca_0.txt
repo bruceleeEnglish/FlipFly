@@ -1,0 +1,7 @@
+Reading arxiv-for-fanns-large from /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_base.fvecs.
+Randomizing arxiv-for-fanns-large of dimensionality 4096.
+PCA - 4096 x 2735264
+Writing File - /data/dataset/arxiv-for-fanns-large/dade/P.fvecs
+Writing File - /data/dataset/arxiv-for-fanns-large/dade/LMD.fvecs
+Writing File - /data/dataset/arxiv-for-fanns-large/Parxiv-for-fanns-large_base.fvecs
+Elapsed time: 4612236.54 ms

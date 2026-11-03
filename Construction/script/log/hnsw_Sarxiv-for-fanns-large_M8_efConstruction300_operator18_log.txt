@@ -1,0 +1,62 @@
+dataset_path: /data/dataset/arxiv-for-fanns-large/Sarxiv-for-fanns-large_base.fvecs
+index_path: /data/dataset/arxiv-for-fanns-large/hnsw_Sarxiv-for-fanns-large_M8_efConstruction300_operator18.index
+M: 8
+efConstruction: 300
+operator: 18
+Using SRHTADSampling
+Processing - 0 / 2735264
+Processing - 50000 / 2735264
+Processing - 100000 / 2735264
+Processing - 150000 / 2735264
+Processing - 200000 / 2735264
+Processing - 250000 / 2735264
+Processing - 300000 / 2735264
+Processing - 350000 / 2735264
+Processing - 400000 / 2735264
+Processing - 450000 / 2735264
+Processing - 500000 / 2735264
+Processing - 550000 / 2735264
+Processing - 600000 / 2735264
+Processing - 650000 / 2735264
+Processing - 700000 / 2735264
+Processing - 750000 / 2735264
+Processing - 800000 / 2735264
+Processing - 850000 / 2735264
+Processing - 900000 / 2735264
+Processing - 950000 / 2735264
+Processing - 1000000 / 2735264
+Processing - 1050000 / 2735264
+Processing - 1100000 / 2735264
+Processing - 1150000 / 2735264
+Processing - 1200000 / 2735264
+Processing - 1250000 / 2735264
+Processing - 1300000 / 2735264
+Processing - 1350000 / 2735264
+Processing - 1400000 / 2735264
+Processing - 1450000 / 2735264
+Processing - 1500000 / 2735264
+Processing - 1550000 / 2735264
+Processing - 1600000 / 2735264
+Processing - 1650000 / 2735264
+Processing - 1700000 / 2735264
+Processing - 1750000 / 2735264
+Processing - 1800000 / 2735264
+Processing - 1850000 / 2735264
+Processing - 1900000 / 2735264
+Processing - 1950000 / 2735264
+Processing - 2000000 / 2735264
+Processing - 2050000 / 2735264
+Processing - 2100000 / 2735264
+Processing - 2150000 / 2735264
+Processing - 2200000 / 2735264
+Processing - 2250000 / 2735264
+Processing - 2300000 / 2735264
+Processing - 2350000 / 2735264
+Processing - 2400000 / 2735264
+Processing - 2450000 / 2735264
+Processing - 2500000 / 2735264
+Processing - 2550000 / 2735264
+Processing - 2600000 / 2735264
+Processing - 2650000 / 2735264
+Processing - 2700000 / 2735264
+build index: 1.29813e+07 [ms] 

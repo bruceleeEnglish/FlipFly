@@ -1,0 +1,9 @@
+Reading /data/dataset/XUltra/msmacro_base-001.bin
+Padding D=12288 -> D=16384
+Applying SRHT (D=16384, N=100000)
+  done in 122.7s
+Computing per-dim variance + permutation by sigma_i^2 desc...
+  post-SRHT var max/min = 3.22
+Writing /data/dataset/XUltra/srht_pca/S.fvecs
+Writing /data/dataset/XUltra/TXUltra_base.fvecs
+done.

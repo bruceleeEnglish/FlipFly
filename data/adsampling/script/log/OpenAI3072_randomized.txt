@@ -1,0 +1,7 @@
+/data/dco-benchmark/data/adsampling/randomized.py:38: RuntimeWarning: overflow encountered in scalar multiply
+  arr = np.fromfile(f, count=nvecs * dim, dtype=np.float32,
+Reading OpenAI3072 from /data/dataset/OpenAI3072/openai3072_base.bin.
+Randomizing OpenAI3072 of dimensionality 3072.
+Writing File - /data/dataset/OpenAI3072/adsampling/O.fvecs
+Writing File - /data/dataset/OpenAI3072/OOpenAI3072_base.fvecs
+Elapsed time: 639299.65 ms

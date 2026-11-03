@@ -1,0 +1,5 @@
+Reading arxiv-for-fanns-large from /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_base.fvecs.
+Randomizing arxiv-for-fanns-large of dimensionality 4096.
+Writing File - /data/dataset/arxiv-for-fanns-large/adsampling/O.fvecs
+Writing File - /data/dataset/arxiv-for-fanns-large/Oarxiv-for-fanns-large_base.fvecs
+Elapsed time: 2779796.54 ms

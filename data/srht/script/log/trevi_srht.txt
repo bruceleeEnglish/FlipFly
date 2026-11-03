@@ -1,0 +1,10 @@
+Reading trevi from /data/dataset/trevi/base.fvecs.
+Applying SRHT with D=4096 on 99900 vectors.
+Writing File - /data/dataset/trevi/srht/S.fvecs
+Writing File - /data/dataset/trevi/Strevi_base.fvecs
+Reading query from /data/dataset/trevi/query.fvecs.
+Writing File - /data/dataset/trevi/Squery.fvecs
+  padded query : /data/dataset/trevi/Squery.fvecs
+Elapsed: 28662.26 ms
+  diagonal     : /data/dataset/trevi/srht/S.fvecs
+  rotated data : /data/dataset/trevi/Strevi_base.fvecs

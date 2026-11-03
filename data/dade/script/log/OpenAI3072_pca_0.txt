@@ -1,0 +1,9 @@
+/data/dco-benchmark/data/dade/pca.py:39: RuntimeWarning: overflow encountered in scalar multiply
+  arr = np.fromfile(f, count=nvecs * dim, dtype=np.float32,
+Reading OpenAI3072 from /data/dataset/OpenAI3072/openai3072_base.bin.
+Randomizing OpenAI3072 of dimensionality 3072.
+PCA - 3072 x 999900
+Writing File - /data/dataset/OpenAI3072/dade/P.fvecs
+Writing File - /data/dataset/OpenAI3072/dade/LMD.fvecs
+Writing File - /data/dataset/OpenAI3072/POpenAI3072_base.fvecs
+Elapsed time: 696690.02 ms

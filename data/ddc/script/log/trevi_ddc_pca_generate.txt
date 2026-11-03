@@ -1,0 +1,9 @@
+PCA - trevi
+PCA - trevi_base.fvecs
+PCA - /data/dataset/trevi/trevi_train_ground_truth.ivecs
+PCA - 99900 vectors, 4096 dimensions
+PCA - fitting on all 99900 vectors
+PCA - Calculating covariance matrix...
+PCA - Performing eigendecomposition...
+PCA - finished
+Elapsed time: 79982.54 ms

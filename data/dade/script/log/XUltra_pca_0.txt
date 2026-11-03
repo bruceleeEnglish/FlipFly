@@ -1,0 +1,7 @@
+Reading XUltra from /data/dataset/XUltra/msmacro_base-001.bin.
+Randomizing XUltra of dimensionality 12288.
+PCA - 12288 x 100000
+Writing File - /data/dataset/XUltra/dade/P.fvecs
+Writing File - /data/dataset/XUltra/dade/LMD.fvecs
+Writing File - /data/dataset/XUltra/PXUltra_base.fvecs
+Elapsed time: 1247491.98 ms

@@ -1,0 +1,12 @@
+Reading XUltra from /data/dataset/XUltra/msmacro_base-001.bin.
+Padding from D_in=12288 to next power of 2 D=16384
+Applying SRHT with D=16384 on 100000 vectors.
+Writing File - /data/dataset/XUltra/srht/S.fvecs
+Writing File - /data/dataset/XUltra/SXUltra_base.fvecs
+Reading query from /data/dataset/XUltra/query.bin.
+Padding query from D_in=12288 to D=16384
+Writing File - /data/dataset/XUltra/Squery.fvecs
+  padded query : /data/dataset/XUltra/Squery.fvecs
+Elapsed: 76840.65 ms
+  diagonal     : /data/dataset/XUltra/srht/S.fvecs
+  rotated data : /data/dataset/XUltra/SXUltra_base.fvecs

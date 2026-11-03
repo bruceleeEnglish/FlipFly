@@ -1,0 +1,11 @@
+Reading /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_base.fvecs
+Applying SRHT (D=4096, N=2735264)
+  done in 4063.7s
+Computing per-dim variance + permutation by sigma_i^2 desc...
+  post-SRHT var max/min = 18.13
+Writing /data/dataset/arxiv-for-fanns-large/srht_pca/S.fvecs
+Writing /data/dataset/arxiv-for-fanns-large/Tarxiv-for-fanns-large_base.fvecs
+Reading query from /data/dataset/arxiv-for-fanns-large/query.fvecs
+Writing /data/dataset/arxiv-for-fanns-large/Squery.fvecs
+  padded query : /data/dataset/arxiv-for-fanns-large/Squery.fvecs
+done.

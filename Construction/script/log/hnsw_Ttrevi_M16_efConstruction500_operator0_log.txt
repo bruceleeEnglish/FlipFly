@@ -1,0 +1,9 @@
+dataset_path: /data/dataset/trevi/Ttrevi_base.fvecs
+index_path: /data/dataset/trevi/hnsw_Ttrevi_M16_efConstruction500_operator0.index
+M: 16
+efConstruction: 500
+operator: 0
+Using FDScanning
+Processing - 0 / 99900
+Processing - 50000 / 99900
+build index: 854686 [ms] 

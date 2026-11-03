@@ -1,0 +1,5 @@
+Reading trevi from /data/dataset/trevi/base.fvecs.
+Randomizing trevi of dimensionality 4096.
+Writing File - /data/dataset/trevi/adsampling/O.fvecs
+Writing File - /data/dataset/trevi/Otrevi_base.fvecs
+Elapsed time: 125597.52 ms

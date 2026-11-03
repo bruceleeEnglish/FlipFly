@@ -1,0 +1,9 @@
+K: 256
+dataset_path: /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_base.fvecs
+query_path: /data/dataset/arxiv-for-fanns-large/query.fvecs
+ground_truth_path: /data/dataset/arxiv-for-fanns-large/gt_256.ivecs
+metric: 0
+dataset size: 2735264
+query size: 100
+dim: 4096
+generate ground truth time: 1.42122e+06

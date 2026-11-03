@@ -1,0 +1,9 @@
+PCA - arxiv-for-fanns-large
+PCA - arxiv-for-fanns-large_base.fvecs
+PCA - /data/dataset/arxiv-for-fanns-large/arxiv-for-fanns-large_train_ground_truth.ivecs
+PCA - 2735264 vectors, 4096 dimensions
+PCA - fitting on first 1000000 vectors
+PCA - Calculating covariance matrix...
+PCA - Performing eigendecomposition...
+PCA - finished
+Elapsed time: 3526646.98 ms
